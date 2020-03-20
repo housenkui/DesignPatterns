@@ -10,15 +10,15 @@
 #import "Dog.h"
 #import "Cat.h"
 #import "Sorter.h"
-//@interface MBCollection<__covariant T>: NSObject
-//
-//@property (nonatomic, readonly) NSMutableArray <T> *elements;
-//
-//- (void)addObject:(T)object;
-//
-//- (BOOL)insertObject:(T)object atIndex: (NSUInteger)index;
-//
-//@end
+@interface MBCollection<__covariant T>: NSObject
+
+@property (nonatomic, readonly) NSMutableArray <T> *elements;
+
+- (void)addObject:(T)object;
+
+- (BOOL)insertObject:(T)object atIndex: (NSUInteger)index;
+
+@end
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...

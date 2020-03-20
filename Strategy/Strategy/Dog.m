@@ -17,8 +17,8 @@
     return self;
 }
 
-- (int)compareTo:(id<Comparable>)obj {
-    Dog *dog = (Dog *) obj;
+- (int)compareTo:(Dog <Comparable> *)dog {
+
     if(self.food < dog.food) return -1;
     else if(self.food > dog.food) return 1;
     return 0;

@@ -15,7 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)initWithFood:(int)food;
 
-- (int)compareTo:(id<Comparable>)obj;
+- (int)compareTo:(Dog <Comparable>*)dog;//这里实现了Comparable协议，并且把协议方法的参数改成当前类的对象
+
 -(NSString *)description;
 
 @end
