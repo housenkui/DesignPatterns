@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)initWithHeight:(int)height
                        weight:(int)weight;
 -(NSString *)description;
-+(NSString *)description;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
                        weight:(int)weight;
 
 - (int)compareTo:(Cat *)c;
+
+- (NSString *)description;
 @end
 
 NS_ASSUME_NONNULL_END

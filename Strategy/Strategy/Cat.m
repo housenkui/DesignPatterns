@@ -24,4 +24,10 @@
     else if(self.weight > c.weight) return 1;
     return 0;
 }
+
+
+- (NSString *)description {
+    return [NSString stringWithFormat:@"cat %d %d",self.height,self.weight];
+}
+
 @end
