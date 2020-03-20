@@ -12,9 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol Comparable <NSObject>
 
-- (int)compareTo:(__kindof NSObject<Comparable> *) obj;
-//- (int)compareTo:(id <Comparable>)obj;
-
+//- (int)compareTo:(__kindof NSObject<Comparable> *) obj;
+- (int)compareTo:(id <Comparable>)obj;
 /*
  遵从的是SOLID中的L即里氏替换原则，大概可以描述为： 程序中的对象应该是可以在不改变程序正确性的前提下被它的子类所替换的[1]
  - (int)compareTo:(__kindof NSObject<Comparable> *) obj;

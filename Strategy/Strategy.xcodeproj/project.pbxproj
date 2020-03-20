@@ -11,6 +11,7 @@
 		EF8118E02424D748006F5140 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8118DF2424D748006F5140 /* Dog.m */; };
 		EF8118E42424DFD4006F5140 /* Sorter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8118E32424DFD4006F5140 /* Sorter.m */; };
 		EF8118E72424E6FF006F5140 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8118E62424E6FF006F5140 /* Cat.m */; };
+		EF8118F124250C8B006F5140 /* DogComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8118F024250C8B006F5140 /* DogComparator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,9 @@
 		EF8118E32424DFD4006F5140 /* Sorter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sorter.m; sourceTree = "<group>"; };
 		EF8118E52424E6FF006F5140 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
 		EF8118E62424E6FF006F5140 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		EF8118EE24250A2E006F5140 /* Comparator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Comparator.h; sourceTree = "<group>"; };
+		EF8118EF24250C8B006F5140 /* DogComparator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogComparator.h; sourceTree = "<group>"; };
+		EF8118F024250C8B006F5140 /* DogComparator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogComparator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +73,11 @@
 			children = (
 				EF8118C42424B657006F5140 /* main.m */,
 				EF8118E12424DD65006F5140 /* Comparable.h */,
+				EF8118EE24250A2E006F5140 /* Comparator.h */,
 				EF8118DE2424D748006F5140 /* Dog.h */,
 				EF8118DF2424D748006F5140 /* Dog.m */,
+				EF8118EF24250C8B006F5140 /* DogComparator.h */,
+				EF8118F024250C8B006F5140 /* DogComparator.m */,
 				EF8118E52424E6FF006F5140 /* Cat.h */,
 				EF8118E62424E6FF006F5140 /* Cat.m */,
 				EF8118E22424DFD4006F5140 /* Sorter.h */,
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF8118E72424E6FF006F5140 /* Cat.m in Sources */,
+				EF8118F124250C8B006F5140 /* DogComparator.m in Sources */,
 				EF8118E02424D748006F5140 /* Dog.m in Sources */,
 				EF8118E42424DFD4006F5140 /* Sorter.m in Sources */,
 				EF8118C52424B657006F5140 /* main.m in Sources */,

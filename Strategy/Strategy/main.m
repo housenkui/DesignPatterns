@@ -10,6 +10,7 @@
 #import "Dog.h"
 #import "Cat.h"
 #import "Sorter.h"
+#import "DogComparator.h"
 @interface MBCollection<__covariant T>: NSObject
 
 @property (nonatomic, readonly) NSMutableArray <T> *elements;
@@ -17,6 +18,7 @@
 - (void)addObject:(T)object;
 
 - (BOOL)insertObject:(T)object atIndex: (NSUInteger)index;
+- (int)compareTo:(id <Comparable>)obj1 obj2:(id <Comparable>)obj2;
 
 @end
 int main(int argc, const char * argv[]) {
@@ -36,7 +38,7 @@ int main(int argc, const char * argv[]) {
         }
         
         Sorter *dogSorter = [[Sorter alloc]init];
-        [dogSorter sort:mdogArray];
+        [dogSorter sort:mdogArray comparator:[DogComparator new]];
         for (Dog *dog  in mdogArray) {
             NSLog(@"%@",[dog description]);
         }

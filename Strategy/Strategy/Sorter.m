@@ -20,6 +20,18 @@
     }
 }
 
+
+- (void)sort:(NSMutableArray <id <Comparable>> *)array comparator:(id <Comparator> )comparator {
+    
+    for (int i = 0; i< array.count ; i++) {
+        int minPos = i;
+        for (int j= i+1;j < array.count; j ++) {
+            minPos = [comparator compareTo:array[j] obj2:array[minPos]] == -1 ? j : minPos;
+        }
+        [self swap:array i:i j:minPos];
+    }
+}
+
 - (void)swap:(NSMutableArray <id <Comparable>> *)arr i:(int)i j:(int)j {
     Cat *temp = arr[i];
     arr[i] = arr[j];

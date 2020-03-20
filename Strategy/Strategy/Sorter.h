@@ -8,9 +8,18 @@
 
 #import <Foundation/Foundation.h>
 #import "Comparable.h"
-NS_ASSUME_NONNULL_BEGIN
+#import "Comparator.h"
 
-@interface Sorter : NSObject
+NS_ASSUME_NONNULL_BEGIN
+@interface Sorter <T>: NSObject
+
+
+
+/// 接收一个数组 和比较策略
+/// @param array 待排序数组
+/// @param comparator 比较策略
+- (void)sort:(NSMutableArray <id <Comparable>> *)array comparator:(id <Comparator>)comparator;
+
 - (void)sort:(NSMutableArray <id <Comparable>> *)array;
 @end
 
