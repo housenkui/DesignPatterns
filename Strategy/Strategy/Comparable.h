@@ -9,9 +9,11 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
-@class Dog;
+
 @protocol Comparable <NSObject>
-int compareto(Dog *dog);
+
+- (int)compareTo:(id<Comparable>)obj;
+
 @end
 
 NS_ASSUME_NONNULL_END

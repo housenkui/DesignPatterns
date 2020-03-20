@@ -18,13 +18,12 @@
     }
     return self;
 }
-
-- (int)compareTo:(Cat *)c {
-    if(self.weight < c.weight) return -1;
-    else if(self.weight > c.weight) return 1;
+- (int)compareTo:(id<Comparable>)obj {
+    Cat *cat = (Cat *) obj;
+    if(self.weight < cat.weight) return -1;
+    else if(self.weight > cat.weight) return 1;
     return 0;
 }
-
 
 - (NSString *)description {
     return [NSString stringWithFormat:@"cat %d %d",self.height,self.weight];

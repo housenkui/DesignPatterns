@@ -9,7 +9,7 @@
 #import "Sorter.h"
 #import "Cat.h"
 @implementation Sorter
-- (void)sort:(NSMutableArray <Cat *> *)array {
+- (void)sort:(NSMutableArray <id <Comparable>> *)array {
     
     for (int i = 0; i< array.count ; i++) {
         int minPos = i;
@@ -20,7 +20,7 @@
     }
 }
 
-- (void)swap:(NSMutableArray <Cat *> *)arr i:(int)i j:(int)j {
+- (void)swap:(NSMutableArray <id <Comparable>> *)arr i:(int)i j:(int)j {
     Cat *temp = arr[i];
     arr[i] = arr[j];
     arr[j] = temp;

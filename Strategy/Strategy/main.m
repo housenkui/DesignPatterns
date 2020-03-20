@@ -40,6 +40,7 @@ int main(int argc, const char * argv[]) {
         for (Cat *cat in mcatArray) {
             NSLog(@"%@",[cat description]);
         }
+        
         Sorter *sorter = [[Sorter alloc]init];
         [sorter sort:mcatArray];
         for (Cat *cat in mcatArray) {
