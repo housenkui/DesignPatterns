@@ -11,7 +11,8 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-     
+        //单例模式:线程安全、支持copy、mutableCopy操作
+        NSLog(@"单例模式");
         for (UInt8 i = 0 ; i < 100; i ++) {
             [NSThread detachNewThreadWithBlock:^{
                 Singleton *singleton = [[Singleton alloc]init];
