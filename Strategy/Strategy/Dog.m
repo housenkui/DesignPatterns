@@ -9,21 +9,22 @@
 #import "Dog.h"
 
 @implementation Dog
-- (instancetype)initWithHeight:(int)height
-                       weight:(int)weight
-{
+
+- (instancetype)initWithFood:(int)food {
     if (self = [super init]) {
-        self.height = height;
-        self.weight = weight;
+        self.food = food;
     }
     return self;
 }
 
-- (NSString *)description {
-    return [NSString stringWithFormat:@"dog %d %d",self.height,self.weight];
+- (int)compareTo:(id<Comparable>)obj {
+    Dog *dog = (Dog *) obj;
+    if(self.food < dog.food) return -1;
+    else if(self.food > dog.food) return 1;
+    return 0;
 }
 
-//int compareto(Dog *dog){
-//
-//}
+- (NSString *)description {
+    return [NSString stringWithFormat:@"dog %d ",self.food];
+}
 @end

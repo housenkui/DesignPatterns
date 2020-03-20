@@ -25,27 +25,38 @@ int main(int argc, const char * argv[]) {
         NSLog(@"策略模式");
         
         NSMutableArray *mdogArray = [NSMutableArray array];
-        for (int i = 0; i< 5 ; i++ ) {
-            Dog *dog = [[Dog alloc]initWithHeight:i weight:i];
+        for (int i = 5; i > 0 ; i-- ) {
+            Dog *dog = [[Dog alloc]initWithFood:i];
             [mdogArray addObject:dog];
         }
         
-        NSMutableArray *mcatArray = [NSMutableArray array];
         
-        for (int i = 5; i > 0 ; i -- ) {
-            Cat *cat = [[Cat alloc]initWithHeight:i weight:i];
-            [mcatArray addObject:cat];
+        for (Dog *dog  in mdogArray) {
+            NSLog(@"%@",[dog description]);
         }
         
-        for (Cat *cat in mcatArray) {
-            NSLog(@"%@",[cat description]);
+        Sorter *dogSorter = [[Sorter alloc]init];
+        [dogSorter sort:mdogArray];
+        for (Dog *dog  in mdogArray) {
+            NSLog(@"%@",[dog description]);
         }
         
-        Sorter *sorter = [[Sorter alloc]init];
-        [sorter sort:mcatArray];
-        for (Cat *cat in mcatArray) {
-            NSLog(@"%@",[cat description]);
-        }
+        
+//        NSMutableArray *mcatArray = [NSMutableArray array];
+//        for (int i = 5; i > 0 ; i -- ) {
+//            Cat *cat = [[Cat alloc]initWithHeight:i weight:i];
+//            [mcatArray addObject:cat];
+//        }
+//
+//        for (Cat *cat in mcatArray) {
+//            NSLog(@"%@",[cat description]);
+//        }
+//
+//        Sorter *sorter = [[Sorter alloc]init];
+//        [sorter sort:mcatArray];
+//        for (Cat *cat in mcatArray) {
+//            NSLog(@"%@",[cat description]);
+//        }
                
 //        Dog *dog0 = [[Dog alloc]initWithHeight:1 weight:1];
 //        Dog *dog1 = [[Dog alloc]initWithHeight:2 weight:2];

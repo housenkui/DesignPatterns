@@ -11,12 +11,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Dog : NSObject<Comparable>
+@property (nonatomic,assign)int food;
 
-@property (nonatomic,assign)int height;
-@property (nonatomic,assign)int weight;
+- (instancetype)initWithFood:(int)food;
 
-- (instancetype)initWithHeight:(int)height
-                       weight:(int)weight;
+- (int)compareTo:(id<Comparable>)obj;
 -(NSString *)description;
 
 @end
