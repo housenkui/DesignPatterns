@@ -18,6 +18,8 @@
 		EFD3DD812425B40700F0F212 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DD802425B40700F0F212 /* main.m */; };
 		EFD3DD872425B8C600F0F212 /* Sorter.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DD862425B8C600F0F212 /* Sorter.m */; };
 		EFD3DD8A2425ECAA00F0F212 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DD892425ECAA00F0F212 /* Dog.m */; };
+		EFD3DD8E2425F1D800F0F212 /* DogComparableParamter.h in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DD8D2425F1D800F0F212 /* DogComparableParamter.h */; };
+		EFD3DD912425F66800F0F212 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DD902425F66800F0F212 /* Cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,6 +71,12 @@
 		EFD3DD862425B8C600F0F212 /* Sorter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sorter.m; sourceTree = "<group>"; };
 		EFD3DD882425ECAA00F0F212 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		EFD3DD892425ECAA00F0F212 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		EFD3DD8C2425EFE900F0F212 /* DogComparable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogComparable.h; sourceTree = "<group>"; };
+		EFD3DD8D2425F1D800F0F212 /* DogComparableParamter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogComparableParamter.h; sourceTree = "<group>"; };
+		EFD3DD8F2425F66800F0F212 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		EFD3DD902425F66800F0F212 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		EFD3DD922425F6F200F0F212 /* CatComparableParamter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatComparableParamter.h; sourceTree = "<group>"; };
+		EFD3DD932425F78000F0F212 /* CatComparable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatComparable.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,10 +146,16 @@
 			isa = PBXGroup;
 			children = (
 				EFD3DD802425B40700F0F212 /* main.m */,
+				EFD3DD8C2425EFE900F0F212 /* DogComparable.h */,
+				EFD3DD8D2425F1D800F0F212 /* DogComparableParamter.h */,
 				EFD3DD852425B8C600F0F212 /* Sorter.h */,
 				EFD3DD862425B8C600F0F212 /* Sorter.m */,
 				EFD3DD882425ECAA00F0F212 /* Dog.h */,
 				EFD3DD892425ECAA00F0F212 /* Dog.m */,
+				EFD3DD8F2425F66800F0F212 /* Cat.h */,
+				EFD3DD902425F66800F0F212 /* Cat.m */,
+				EFD3DD932425F78000F0F212 /* CatComparable.h */,
+				EFD3DD922425F6F200F0F212 /* CatComparableParamter.h */,
 			);
 			path = No_Strategy;
 			sourceTree = "<group>";
@@ -241,7 +255,9 @@
 			files = (
 				EFD3DD8A2425ECAA00F0F212 /* Dog.m in Sources */,
 				EFD3DD872425B8C600F0F212 /* Sorter.m in Sources */,
+				EFD3DD8E2425F1D800F0F212 /* DogComparableParamter.h in Sources */,
 				EFD3DD812425B40700F0F212 /* main.m in Sources */,
+				EFD3DD912425F66800F0F212 /* Cat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,6 +18,36 @@
     }
     return self;
 }
+
+
+- (int)compare:(Dog <DogComparable> *)dog WithParamter:(ComparableParamter )paramter {
+    if (paramter == DogHeight)
+    {
+        if(self.height < dog.height) return -1;
+        else if(self.height > dog.height) return 1;
+        return 0;
+    }
+    else if(paramter == DogWeight)
+    {
+        if(self.weight < dog.weight) return -1;
+        else if(self.weight > dog.weight) return 1;
+        return 0;
+    }
+    else if(paramter == DogPrice)
+    {
+        if(self.price < dog.price) return -1;
+        else if(self.price > dog.price) return 1;
+        return 0;
+    }
+    else
+    {
+        if(self.color < dog.color) return -1;
+        else if(self.color > dog.color) return 1;
+        return 0;
+    }
+    return  0;
+}
+
 - (NSString *)description {
     return [NSString stringWithFormat:@"dog height = %d  weight = %d  price = %d color = %d",self.height,self.weight,self.price,self.color];
 }

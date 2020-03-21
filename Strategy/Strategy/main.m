@@ -10,7 +10,7 @@
 #import "Dog.h"
 #import "Cat.h"
 #import "Sorter.h"
-#import "DogComparator.h"
+
 #import "CatWeightComparator.h"
 #import "CatHeightComparator.h"
 #import "DogPriceComparator.h"

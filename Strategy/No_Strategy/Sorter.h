@@ -7,11 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "DogComparable.h"
+#import "CatComparable.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Sorter : NSObject
-- (void)sort:(NSMutableArray <id > *)array;
+
+- (void)sortDog:(NSMutableArray <id <DogComparable> > *)array WithParamter:(ComparableParamter )paramter;
+
+- (void)sortCat:(NSMutableArray <id <CatComparable> > *)array WithParamter:(CatComparableParamter )paramter;
+
 @end
 
 NS_ASSUME_NONNULL_END

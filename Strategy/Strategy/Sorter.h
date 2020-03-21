@@ -28,18 +28,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param comparator 比较策略
 - (void)sort:(NSMutableArray <id > *)array comparator:(id <Comparator>)comparator;
 
-//- (void)sortCatWithHeigthCompare:(NSMutableArray <Cat <CatComparable> * > *)array;
-//
-//- (void)sortCatWithWeigthCompare:(NSMutableArray <Cat <CatComparable> * > *)array;
-//
-//- (void)sortDogWithHeigthCompare:(NSMutableArray <Dog <DogComparable> * > *)array;
-//
-//- (void)sortDogWithWeigthCompare:(NSMutableArray <Dog <DogComparable> * > *)array;
-//
-//- (void)sortDogWithPriceCompare:(NSMutableArray <Dog <DogComparable> * > *)array;
-//
-//- (void)sortDogWithColorCompare:(NSMutableArray <Dog <DogComparable> * > *)array;
-
 @end
 
 NS_ASSUME_NONNULL_END
