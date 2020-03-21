@@ -7,22 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Comparable.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Cat : NSObject<Comparable>
-@property (nonatomic,assign)int height;
-@property (nonatomic,assign)int weight;
+@interface Cat : NSObject
+@property (nonatomic,assign)int hair; //发量
+@property (nonatomic,assign)int tail;//尾巴长度
 
-- (instancetype)initWithHeight:(int)height
-                       weight:(int)weight;
+@property (nonatomic,assign)int intelligence;//智商
+@property (nonatomic,assign)int age;//年龄
 
-- (int)compareTo:(id<Comparable>)obj;
+- (instancetype)initWithHair:(int)hair tail:(int)tail intelligence:(int)intelligence age:(int)age;
 
-- (int)compareWithHeigth:(Cat <Comparable> *)cat;
-- (int)compareWithWeigth:(Cat <Comparable> *)cat;
-
-- (NSString *)description;
+- (void)description;
 @end
 
 NS_ASSUME_NONNULL_END

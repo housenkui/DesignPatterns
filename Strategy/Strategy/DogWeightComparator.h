@@ -1,5 +1,5 @@
 //
-//  CatComparable.h
+//  DogWeightComparator.h
 //  Strategy
 //
 //  Created by 侯森魁 on 2020/3/21.
@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Dog.h"
+#import "Comparator.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol CatComparable <NSObject>
-- (int)compareWithHeigth:(id <CatComparable> )cat;
-- (int)compareWithWeigth:(id <CatComparable> )cat;
+@interface DogWeightComparator : NSObject<Comparator>
+- (int)compareTo:(Dog *)dog1 obj2:(Dog *)dog2;
 @end
 
 NS_ASSUME_NONNULL_END

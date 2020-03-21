@@ -7,13 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Comparable.h"
 #import "Comparator.h"
-#import "Cat.h"
-#import "Dog.h"
-#import "Person.h"
-#import "CatComparable.h"
-#import "DogComparable.h"
 NS_ASSUME_NONNULL_BEGIN
 @interface Sorter : NSObject
 
@@ -26,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 接收一个数组 和比较策略
 /// @param array 待排序数组
 /// @param comparator 比较策略
-- (void)sort:(NSMutableArray <id > *)array comparator:(id <Comparator>)comparator;
+- (void)sort:(NSMutableArray <id> *)array comparator:(id <Comparator>)comparator;
 
 @end
 

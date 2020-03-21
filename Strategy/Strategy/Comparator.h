@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
-
+//各种比较器需要实现的方法
 @protocol Comparator <NSObject>
 - (int)compareTo:(id <Comparator> )obj1 obj2:(id <Comparator>)obj2;
 @end

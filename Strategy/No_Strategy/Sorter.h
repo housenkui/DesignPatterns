@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Sorter : NSObject
 
-- (void)sortDog:(NSMutableArray <id <DogComparable> > *)array WithParamter:(ComparableParamter )paramter;
+- (void)sortDog:(NSMutableArray <id <DogComparable> > *)array WithParamter:(DogComparableParamter )paramter;
 
 - (void)sortCat:(NSMutableArray <id <CatComparable> > *)array WithParamter:(CatComparableParamter )paramter;
 

@@ -10,7 +10,7 @@
 
 @implementation Sorter
 
-- (void)sortDog:(NSMutableArray <id <DogComparable> > *)array WithParamter:(ComparableParamter )paramter {
+- (void)sortDog:(NSMutableArray <id <DogComparable> > *)array WithParamter:(DogComparableParamter )paramter {
         for (int i = 0; i< array.count ; i++) {
             int minPos = i;
             for (int j= i+1;j < array.count; j ++) {

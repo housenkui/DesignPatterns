@@ -11,20 +11,13 @@
 #import "Cat.h"
 #import "Sorter.h"
 
-#import "CatWeightComparator.h"
-#import "CatHeightComparator.h"
+#import "DogWeightComparator.h"
+#import "DogHeightComparator.h"
 #import "DogPriceComparator.h"
 #import "DogColorComparator.h"
-@interface MBCollection<__covariant T>: NSObject
 
-@property (nonatomic, readonly) NSMutableArray <T> *elements;
+#import "CatHairComparator.h"
 
-- (void)addObject:(T)object;
-
-- (BOOL)insertObject:(T)object atIndex: (NSUInteger)index;
-- (int)compareTo:(id <Comparable>)obj1 obj2:(id <Comparable>)obj2;
-
-@end
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
@@ -36,43 +29,35 @@ int main(int argc, const char * argv[]) {
             [mdogArray addObject:dog];
         }
         
-        
         for (Dog *dog  in mdogArray) {
-            NSLog(@"%@",[dog description]);
+            [dog description];
         }
         
         Sorter *dogSorter = [[Sorter alloc]init];
         [dogSorter sort:mdogArray comparator:[DogColorComparator new]];
-        //          [dogSorter sortDogWithHeigthCompare:mdogArray];
         NSLog(@"排序后------------");
         for (Dog *dog  in mdogArray) {
-            NSLog(@"%@",[dog description]);
+            [dog description];
         }
         
         
-//        NSMutableArray *mcatArray = [NSMutableArray array];
-//        for (int i = 5; i > 0 ; i -- ) {
-//            Cat *cat = [[Cat alloc]initWithHeight:i weight:i];
-//            [mcatArray addObject:cat];
-//        }
-//
-//        for (Cat *cat in mcatArray) {
-//            NSLog(@"%@",[cat description]);
-//        }
-//
-//        Sorter *sorter = [[Sorter alloc]init];
-//        [sorter sort:mcatArray comparator:[CatHeightComparator new]];
-//        [sorter sortCatWithHeigthCompare:mcatArray];
-//        [sorter sortCatWithWeigthCompare:mcatArray];
-//        for (Cat *cat in mcatArray) {
-//            NSLog(@"%@",[cat description]);
-//        }
+        NSMutableArray *mCatArray = [NSMutableArray array];
+        for (int i = 5; i > 0 ; i -- ) {
+            Cat *cat = [[Cat alloc]initWithHair:arc4random()%10 tail:arc4random()%10 intelligence:arc4random()%10 age:arc4random()%10];
+            [mCatArray addObject:cat];
+        }
+
+        for (Cat *cat in mCatArray) {
+            [cat description];
+        }
+
+        Sorter *sorter = [[Sorter alloc]init];
+        [sorter sort:mCatArray comparator:[CatHairComparator new]];
+        NSLog(@"排序后------------");
+        for (Cat *cat in mCatArray) {
+           [cat description];
+        }
                
-//        NSMutableArray *array = [NSMutableArray arrayWithArray:@[@2,@1,@3,@5,@9,@7]];
-//        NSLog(@"array = %@",array);
-//        Sorter *sorter = [[Sorter alloc]init];
-//        [sorter sort:array];
-//        NSLog(@"array = %@",array);
         
     }
     return 0;

@@ -1,5 +1,5 @@
 //
-//  CatWeightComparator.h
+//  CatIntelligenceComparator.h
 //  Strategy
 //
 //  Created by 侯森魁 on 2020/3/21.
@@ -11,8 +11,9 @@
 #import "Comparator.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CatWeightComparator : NSObject <Comparator>
-- (int)compareTo:(Cat <Comparable> *)cat1 obj2:(Cat <Comparable> *)cat2;
+@interface CatIntelligenceComparator : NSObject<Comparator>
+- (int)compareTo:(Cat *)cat1 obj2:(Cat  *)cat2;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -12,4 +12,4 @@ typedef enum {
     DogWeight = 1 << 1,
     DogPrice = 1  << 2,
     DogColor = 1  << 3,
-}ComparableParamter;//可以比较的参数
+}DogComparableParamter;//可以比较的参数
