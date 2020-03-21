@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)int age;//年龄
 
 - (instancetype)initWithHair:(int)hair tail:(int)tail intelligence:(int)intelligence age:(int)age;
-- (int)compare:(Cat<CatComparable> *)cat WithParamter:(CatComparableParamter )paramter;
+- (int)compare:(Cat<CatComparable> *)cat withParamter:(CatComparableParamter )paramter;
 - (void)description;
 @end
 

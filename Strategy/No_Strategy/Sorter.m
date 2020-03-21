@@ -12,11 +12,11 @@
 /*
  添加新的比较，就需要更改Sorter的代码
  */
-- (void)sortDog:(NSMutableArray <id <DogComparable> > *)array WithParamter:(DogComparableParamter )paramter {
+- (void)sortDog:(NSMutableArray <id <DogComparable> > *)array withParamter:(DogComparableParamter )paramter {
     for (int i = 0; i< array.count ; i++) {
         int minPos = i;
         for (int j= i+1;j < array.count; j ++) {
-            minPos = [array[j] compare:array[minPos] WithParamter:paramter] == -1 ? j : minPos;
+            minPos = [array[j] compare:array[minPos] withParamter:paramter] == -1 ? j : minPos;
         }
         [self swapWithDog:array i:i j:minPos];
     }
@@ -28,11 +28,11 @@
     arr[j] = temp;
 }
 
-- (void)sortCat:(NSMutableArray <id <CatComparable> > *)array WithParamter:(CatComparableParamter )paramter {
+- (void)sortCat:(NSMutableArray <id <CatComparable> > *)array withParamter:(CatComparableParamter )paramter {
     for (int i = 0; i< array.count ; i++) {
         int minPos = i;
         for (int j= i+1;j < array.count; j ++) {
-            minPos = [array[j] compare:array[minPos] WithParamter:paramter] == -1 ? j : minPos;
+            minPos = [array[j] compare:array[minPos] withParamter:paramter] == -1 ? j : minPos;
         }
         [self swapWithCat:array i:i j:minPos];
     }

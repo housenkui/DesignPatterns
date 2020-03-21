@@ -25,7 +25,7 @@ int main(int argc, const char * argv[]) {
         }
         
         Sorter *dogSorter = [[Sorter alloc]init];
-        [dogSorter sortDog:mdogArray WithParamter:DogWeight];
+        [dogSorter sortDog:mdogArray withParamter:DogWeight];
         NSLog(@"排序后---------");
         for (Dog *dog  in mdogArray) {
             NSLog(@"%@",[dog description]);
@@ -43,7 +43,7 @@ int main(int argc, const char * argv[]) {
         }
         
         Sorter *catSorter = [[Sorter alloc]init];
-        [catSorter sortCat:mCatArray WithParamter:CatHair];
+        [catSorter sortCat:mCatArray withParamter:CatHair];
         NSLog(@"排序后---------");
         for (Cat *cat  in mCatArray) {
             [cat description];

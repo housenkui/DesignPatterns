@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol CatComparable <NSObject>
-- (int)compare:(id<CatComparable>)cat WithParamter:(CatComparableParamter )paramter;
+- (int)compare:(id<CatComparable>)cat withParamter:(CatComparableParamter )paramter;
 @end
 
 NS_ASSUME_NONNULL_END

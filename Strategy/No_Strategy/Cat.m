@@ -17,7 +17,7 @@
     }
     return self;
 }
-- (int)compare:(Cat<CatComparable> *)cat WithParamter:(CatComparableParamter )paramter {
+- (int)compare:(Cat<CatComparable> *)cat withParamter:(CatComparableParamter )paramter {
     if (paramter == CatHair) {
         if(self.hair < cat.hair) return -1;
         else if(self.hair > cat.hair) return 1;

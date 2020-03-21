@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol DogComparable <NSObject>
 
-- (int)compare:(id<DogComparable>)dog WithParamter:(DogComparableParamter )paramter;
+- (int)compare:(id<DogComparable>)dog withParamter:(DogComparableParamter )paramter;
 
 @end
 

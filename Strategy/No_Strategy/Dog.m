@@ -20,7 +20,7 @@
 }
 
 
-- (int)compare:(Dog <DogComparable> *)dog WithParamter:(ComparableParamter )paramter {
+- (int)compare:(Dog <DogComparable> *)dog withParamter:(ComparableParamter )paramter {
     if (paramter == DogHeight)
     {
         if(self.height < dog.height) return -1;

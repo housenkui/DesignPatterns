@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)int price;
 @property (nonatomic,assign)int color;
 - (instancetype)initWithHeight:(int)height weight:(int)weight price:(int)price color:(int)color;
-- (int)compare:(Dog <DogComparable>*)dog WithParamter:(DogComparableParamter )paramter;
+- (int)compare:(Dog <DogComparable>*)dog withParamter:(DogComparableParamter )paramter;
 - (NSString *)description;
 @end
 
