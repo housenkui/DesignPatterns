@@ -21,10 +21,45 @@
 		EFD3DDCC24265C2500F0F212 /* MagicStick.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDCB24265C2500F0F212 /* MagicStick.m */; };
 		EFD3DDCF24265C4000F0F212 /* MushRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDCE24265C4000F0F212 /* MushRoom.m */; };
 		EFD3DDD224265C6600F0F212 /* MagicFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDD124265C6600F0F212 /* MagicFactory.m */; };
+		EFD3DDDA2426654300F0F212 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDD92426654300F0F212 /* main.m */; };
+		EFD3DDFD242665AA00F0F212 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDF0242665A900F0F212 /* Car.m */; };
+		EFD3DDFE242665AA00F0F212 /* Broom.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDF2242665A900F0F212 /* Broom.m */; };
+		EFD3DDFF242665AA00F0F212 /* MushRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDF7242665A900F0F212 /* MushRoom.m */; };
+		EFD3DE01242665AA00F0F212 /* Bread.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDFA242665A900F0F212 /* Bread.m */; };
+		EFD3DE02242665AA00F0F212 /* MagicStick.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDFB242665A900F0F212 /* MagicStick.m */; };
+		EFD3DE03242665AA00F0F212 /* AK47.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDFC242665AA00F0F212 /* AK47.m */; };
+		EFD3DE0B2426683800F0F212 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DE0A2426683800F0F212 /* main.m */; };
+		EFD3DE1124266C6300F0F212 /* VehicleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DE1024266C6300F0F212 /* VehicleFactory.m */; };
+		EFD3DE1424266C7300F0F212 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DE1324266C7300F0F212 /* Car.m */; };
+		EFD3DE1724266C9600F0F212 /* Broom.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DE1624266C9600F0F212 /* Broom.m */; };
+		EFD3DE1E24266F4E00F0F212 /* FoodFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DE1D24266F4E00F0F212 /* FoodFactory.m */; };
+		EFD3DE2124266F6A00F0F212 /* WeaponFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DE2024266F6A00F0F212 /* WeaponFactory.m */; };
+		EFD3DE2424266F7B00F0F212 /* Bread.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DE2324266F7B00F0F212 /* Bread.m */; };
+		EFD3DE2724266F9700F0F212 /* MigicStick.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DE2624266F9700F0F212 /* MigicStick.m */; };
+		EFD3DE2A24266FA600F0F212 /* MushRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DE2924266FA600F0F212 /* MushRoom.m */; };
+		EFD3DE2D24266FBE00F0F212 /* AK47.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DE2C24266FBE00F0F212 /* AK47.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		EF8118D22424B72D006F5140 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFD3DDD52426654300F0F212 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFD3DE062426683800F0F212 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -63,10 +98,61 @@
 		EFD3DDCE24265C4000F0F212 /* MushRoom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MushRoom.m; sourceTree = "<group>"; };
 		EFD3DDD024265C6600F0F212 /* MagicFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagicFactory.h; sourceTree = "<group>"; };
 		EFD3DDD124265C6600F0F212 /* MagicFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicFactory.m; sourceTree = "<group>"; };
+		EFD3DDD72426654300F0F212 /* no_factory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = no_factory; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD3DDD92426654300F0F212 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFD3DDF0242665A900F0F212 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		EFD3DDF1242665A900F0F212 /* MagicStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicStick.h; sourceTree = "<group>"; };
+		EFD3DDF2242665A900F0F212 /* Broom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Broom.m; sourceTree = "<group>"; };
+		EFD3DDF3242665A900F0F212 /* AK47.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AK47.h; sourceTree = "<group>"; };
+		EFD3DDF4242665A900F0F212 /* Broom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Broom.h; sourceTree = "<group>"; };
+		EFD3DDF5242665A900F0F212 /* MushRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MushRoom.h; sourceTree = "<group>"; };
+		EFD3DDF6242665A900F0F212 /* Bread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bread.h; sourceTree = "<group>"; };
+		EFD3DDF7242665A900F0F212 /* MushRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MushRoom.m; sourceTree = "<group>"; };
+		EFD3DDF8242665A900F0F212 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		EFD3DDFA242665A900F0F212 /* Bread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bread.m; sourceTree = "<group>"; };
+		EFD3DDFB242665A900F0F212 /* MagicStick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicStick.m; sourceTree = "<group>"; };
+		EFD3DDFC242665AA00F0F212 /* AK47.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AK47.m; sourceTree = "<group>"; };
+		EFD3DE082426683800F0F212 /* SimpleFactory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimpleFactory; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD3DE0A2426683800F0F212 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFD3DE0F24266C6300F0F212 /* VehicleFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VehicleFactory.h; sourceTree = "<group>"; };
+		EFD3DE1024266C6300F0F212 /* VehicleFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VehicleFactory.m; sourceTree = "<group>"; };
+		EFD3DE1224266C7300F0F212 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		EFD3DE1324266C7300F0F212 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		EFD3DE1524266C9600F0F212 /* Broom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Broom.h; sourceTree = "<group>"; };
+		EFD3DE1624266C9600F0F212 /* Broom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Broom.m; sourceTree = "<group>"; };
+		EFD3DE1824266CB900F0F212 /* Moveable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Moveable.h; sourceTree = "<group>"; };
+		EFD3DE1A24266EF900F0F212 /* Food.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		EFD3DE1B24266F1100F0F212 /* Weapon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		EFD3DE1C24266F4E00F0F212 /* FoodFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodFactory.h; sourceTree = "<group>"; };
+		EFD3DE1D24266F4E00F0F212 /* FoodFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodFactory.m; sourceTree = "<group>"; };
+		EFD3DE1F24266F6A00F0F212 /* WeaponFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeaponFactory.h; sourceTree = "<group>"; };
+		EFD3DE2024266F6A00F0F212 /* WeaponFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeaponFactory.m; sourceTree = "<group>"; };
+		EFD3DE2224266F7B00F0F212 /* Bread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bread.h; sourceTree = "<group>"; };
+		EFD3DE2324266F7B00F0F212 /* Bread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bread.m; sourceTree = "<group>"; };
+		EFD3DE2524266F9700F0F212 /* MigicStick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MigicStick.h; sourceTree = "<group>"; };
+		EFD3DE2624266F9700F0F212 /* MigicStick.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MigicStick.m; sourceTree = "<group>"; };
+		EFD3DE2824266FA600F0F212 /* MushRoom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MushRoom.h; sourceTree = "<group>"; };
+		EFD3DE2924266FA600F0F212 /* MushRoom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MushRoom.m; sourceTree = "<group>"; };
+		EFD3DE2B24266FBE00F0F212 /* AK47.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AK47.h; sourceTree = "<group>"; };
+		EFD3DE2C24266FBE00F0F212 /* AK47.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AK47.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF8118D12424B72D006F5140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD3DDD42426654300F0F212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD3DE052426683800F0F212 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,7 +165,9 @@
 		EF8118CB2424B72D006F5140 = {
 			isa = PBXGroup;
 			children = (
-				EF8118D62424B72D006F5140 /* FactoryMethod */,
+				EF8118D62424B72D006F5140 /* AbstractFactory */,
+				EFD3DDD82426654300F0F212 /* no_factory */,
+				EFD3DE092426683800F0F212 /* SimpleFactory */,
 				EF8118D52424B72D006F5140 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,11 +176,13 @@
 			isa = PBXGroup;
 			children = (
 				EF8118D42424B72D006F5140 /* FactoryMethod */,
+				EFD3DDD72426654300F0F212 /* no_factory */,
+				EFD3DE082426683800F0F212 /* SimpleFactory */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EF8118D62424B72D006F5140 /* FactoryMethod */ = {
+		EF8118D62424B72D006F5140 /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
 				EFD3DDAD2426489B00F0F212 /* 需求文档 */,
@@ -122,7 +212,56 @@
 				EFD3DDCD24265C4000F0F212 /* MushRoom.h */,
 				EFD3DDCE24265C4000F0F212 /* MushRoom.m */,
 			);
-			path = FactoryMethod;
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		EFD3DDD82426654300F0F212 /* no_factory */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3DDD92426654300F0F212 /* main.m */,
+				EFD3DDF3242665A900F0F212 /* AK47.h */,
+				EFD3DDFC242665AA00F0F212 /* AK47.m */,
+				EFD3DDF6242665A900F0F212 /* Bread.h */,
+				EFD3DDFA242665A900F0F212 /* Bread.m */,
+				EFD3DDF8242665A900F0F212 /* Car.h */,
+				EFD3DDF0242665A900F0F212 /* Car.m */,
+				EFD3DDF4242665A900F0F212 /* Broom.h */,
+				EFD3DDF2242665A900F0F212 /* Broom.m */,
+				EFD3DDF1242665A900F0F212 /* MagicStick.h */,
+				EFD3DDFB242665A900F0F212 /* MagicStick.m */,
+				EFD3DDF5242665A900F0F212 /* MushRoom.h */,
+				EFD3DDF7242665A900F0F212 /* MushRoom.m */,
+			);
+			path = no_factory;
+			sourceTree = "<group>";
+		};
+		EFD3DE092426683800F0F212 /* SimpleFactory */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3DE0A2426683800F0F212 /* main.m */,
+				EFD3DE1824266CB900F0F212 /* Moveable.h */,
+				EFD3DE1A24266EF900F0F212 /* Food.h */,
+				EFD3DE1B24266F1100F0F212 /* Weapon.h */,
+				EFD3DE0F24266C6300F0F212 /* VehicleFactory.h */,
+				EFD3DE1024266C6300F0F212 /* VehicleFactory.m */,
+				EFD3DE1C24266F4E00F0F212 /* FoodFactory.h */,
+				EFD3DE1D24266F4E00F0F212 /* FoodFactory.m */,
+				EFD3DE1F24266F6A00F0F212 /* WeaponFactory.h */,
+				EFD3DE2024266F6A00F0F212 /* WeaponFactory.m */,
+				EFD3DE2B24266FBE00F0F212 /* AK47.h */,
+				EFD3DE2C24266FBE00F0F212 /* AK47.m */,
+				EFD3DE2224266F7B00F0F212 /* Bread.h */,
+				EFD3DE2324266F7B00F0F212 /* Bread.m */,
+				EFD3DE1224266C7300F0F212 /* Car.h */,
+				EFD3DE1324266C7300F0F212 /* Car.m */,
+				EFD3DE1524266C9600F0F212 /* Broom.h */,
+				EFD3DE1624266C9600F0F212 /* Broom.m */,
+				EFD3DE2524266F9700F0F212 /* MigicStick.h */,
+				EFD3DE2624266F9700F0F212 /* MigicStick.m */,
+				EFD3DE2824266FA600F0F212 /* MushRoom.h */,
+				EFD3DE2924266FA600F0F212 /* MushRoom.m */,
+			);
+			path = SimpleFactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +284,40 @@
 			productReference = EF8118D42424B72D006F5140 /* FactoryMethod */;
 			productType = "com.apple.product-type.tool";
 		};
+		EFD3DDD62426654300F0F212 /* no_factory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD3DDDB2426654300F0F212 /* Build configuration list for PBXNativeTarget "no_factory" */;
+			buildPhases = (
+				EFD3DDD32426654300F0F212 /* Sources */,
+				EFD3DDD42426654300F0F212 /* Frameworks */,
+				EFD3DDD52426654300F0F212 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = no_factory;
+			productName = no_factory;
+			productReference = EFD3DDD72426654300F0F212 /* no_factory */;
+			productType = "com.apple.product-type.tool";
+		};
+		EFD3DE072426683800F0F212 /* SimpleFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD3DE0C2426683800F0F212 /* Build configuration list for PBXNativeTarget "SimpleFactory" */;
+			buildPhases = (
+				EFD3DE042426683800F0F212 /* Sources */,
+				EFD3DE052426683800F0F212 /* Frameworks */,
+				EFD3DE062426683800F0F212 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleFactory;
+			productName = SimpleFactory;
+			productReference = EFD3DE082426683800F0F212 /* SimpleFactory */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -155,6 +328,12 @@
 				ORGANIZATIONNAME = "侯森魁";
 				TargetAttributes = {
 					EF8118D32424B72D006F5140 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EFD3DDD62426654300F0F212 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EFD3DE072426683800F0F212 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
@@ -173,6 +352,8 @@
 			projectRoot = "";
 			targets = (
 				EF8118D32424B72D006F5140 /* FactoryMethod */,
+				EFD3DDD62426654300F0F212 /* no_factory */,
+				EFD3DE072426683800F0F212 /* SimpleFactory */,
 			);
 		};
 /* End PBXProject section */
@@ -196,6 +377,37 @@
 				EFD3DDC924265BA500F0F212 /* Bread.m in Sources */,
 				EF8118D82424B72D006F5140 /* main.m in Sources */,
 				EFD3DDC324265B4400F0F212 /* ModernFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD3DDD32426654300F0F212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD3DE03242665AA00F0F212 /* AK47.m in Sources */,
+				EFD3DE01242665AA00F0F212 /* Bread.m in Sources */,
+				EFD3DDFE242665AA00F0F212 /* Broom.m in Sources */,
+				EFD3DE02242665AA00F0F212 /* MagicStick.m in Sources */,
+				EFD3DDFD242665AA00F0F212 /* Car.m in Sources */,
+				EFD3DDDA2426654300F0F212 /* main.m in Sources */,
+				EFD3DDFF242665AA00F0F212 /* MushRoom.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD3DE042426683800F0F212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD3DE2D24266FBE00F0F212 /* AK47.m in Sources */,
+				EFD3DE1424266C7300F0F212 /* Car.m in Sources */,
+				EFD3DE1724266C9600F0F212 /* Broom.m in Sources */,
+				EFD3DE2124266F6A00F0F212 /* WeaponFactory.m in Sources */,
+				EFD3DE0B2426683800F0F212 /* main.m in Sources */,
+				EFD3DE2424266F7B00F0F212 /* Bread.m in Sources */,
+				EFD3DE2A24266FA600F0F212 /* MushRoom.m in Sources */,
+				EFD3DE1E24266F4E00F0F212 /* FoodFactory.m in Sources */,
+				EFD3DE2724266F9700F0F212 /* MigicStick.m in Sources */,
+				EFD3DE1124266C6300F0F212 /* VehicleFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +539,38 @@
 			};
 			name = Release;
 		};
+		EFD3DDDC2426654300F0F212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFD3DDDD2426654300F0F212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFD3DE0D2426683800F0F212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFD3DE0E2426683800F0F212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -344,6 +588,24 @@
 			buildConfigurations = (
 				EF8118DC2424B72D006F5140 /* Debug */,
 				EF8118DD2424B72D006F5140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD3DDDB2426654300F0F212 /* Build configuration list for PBXNativeTarget "no_factory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD3DDDC2426654300F0F212 /* Debug */,
+				EFD3DDDD2426654300F0F212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD3DE0C2426683800F0F212 /* Build configuration list for PBXNativeTarget "SimpleFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD3DE0D2426683800F0F212 /* Debug */,
+				EFD3DE0E2426683800F0F212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
