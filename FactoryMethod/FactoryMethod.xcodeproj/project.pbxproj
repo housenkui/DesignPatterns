@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		EF8118D82424B72D006F5140 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8118D72424B72D006F5140 /* main.m */; };
+		EFD3DDA82426474400F0F212 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDA72426474400F0F212 /* Car.m */; };
+		EFD3DDAE2426489B00F0F212 /* 需求文档 in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDAD2426489B00F0F212 /* 需求文档 */; };
+		EFD3DDB4242649E100F0F212 /* Broom.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDB3242649E100F0F212 /* Broom.m */; };
+		EFD3DDB7242659D100F0F212 /* AbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDB6242659D100F0F212 /* AbstractFactory.m */; };
+		EFD3DDBA24265A1100F0F212 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDB924265A1100F0F212 /* Food.m */; };
+		EFD3DDBD24265A3300F0F212 /* Weapon.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDBC24265A3300F0F212 /* Weapon.m */; };
+		EFD3DDC024265A4400F0F212 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDBF24265A4400F0F212 /* Vehicle.m */; };
+		EFD3DDC324265B4400F0F212 /* ModernFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDC224265B4400F0F212 /* ModernFactory.m */; };
+		EFD3DDC624265B9500F0F212 /* AK47.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDC524265B9500F0F212 /* AK47.m */; };
+		EFD3DDC924265BA500F0F212 /* Bread.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDC824265BA500F0F212 /* Bread.m */; };
+		EFD3DDCC24265C2500F0F212 /* MagicStick.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDCB24265C2500F0F212 /* MagicStick.m */; };
+		EFD3DDCF24265C4000F0F212 /* MushRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDCE24265C4000F0F212 /* MushRoom.m */; };
+		EFD3DDD224265C6600F0F212 /* MagicFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDD124265C6600F0F212 /* MagicFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +38,31 @@
 /* Begin PBXFileReference section */
 		EF8118D42424B72D006F5140 /* FactoryMethod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FactoryMethod; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8118D72424B72D006F5140 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFD3DDA62426474400F0F212 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		EFD3DDA72426474400F0F212 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		EFD3DDAD2426489B00F0F212 /* 需求文档 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "需求文档"; sourceTree = "<group>"; };
+		EFD3DDB2242649E100F0F212 /* Broom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Broom.h; sourceTree = "<group>"; };
+		EFD3DDB3242649E100F0F212 /* Broom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Broom.m; sourceTree = "<group>"; };
+		EFD3DDB5242659D100F0F212 /* AbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
+		EFD3DDB6242659D100F0F212 /* AbstractFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactory.m; sourceTree = "<group>"; };
+		EFD3DDB824265A1100F0F212 /* Food.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		EFD3DDB924265A1100F0F212 /* Food.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		EFD3DDBB24265A3300F0F212 /* Weapon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		EFD3DDBC24265A3300F0F212 /* Weapon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Weapon.m; sourceTree = "<group>"; };
+		EFD3DDBE24265A4400F0F212 /* Vehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		EFD3DDBF24265A4400F0F212 /* Vehicle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		EFD3DDC124265B4400F0F212 /* ModernFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModernFactory.h; sourceTree = "<group>"; };
+		EFD3DDC224265B4400F0F212 /* ModernFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModernFactory.m; sourceTree = "<group>"; };
+		EFD3DDC424265B9500F0F212 /* AK47.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AK47.h; sourceTree = "<group>"; };
+		EFD3DDC524265B9500F0F212 /* AK47.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AK47.m; sourceTree = "<group>"; };
+		EFD3DDC724265BA500F0F212 /* Bread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bread.h; sourceTree = "<group>"; };
+		EFD3DDC824265BA500F0F212 /* Bread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bread.m; sourceTree = "<group>"; };
+		EFD3DDCA24265C2500F0F212 /* MagicStick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagicStick.h; sourceTree = "<group>"; };
+		EFD3DDCB24265C2500F0F212 /* MagicStick.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicStick.m; sourceTree = "<group>"; };
+		EFD3DDCD24265C4000F0F212 /* MushRoom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MushRoom.h; sourceTree = "<group>"; };
+		EFD3DDCE24265C4000F0F212 /* MushRoom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MushRoom.m; sourceTree = "<group>"; };
+		EFD3DDD024265C6600F0F212 /* MagicFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagicFactory.h; sourceTree = "<group>"; };
+		EFD3DDD124265C6600F0F212 /* MagicFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +95,32 @@
 		EF8118D62424B72D006F5140 /* FactoryMethod */ = {
 			isa = PBXGroup;
 			children = (
+				EFD3DDAD2426489B00F0F212 /* 需求文档 */,
 				EF8118D72424B72D006F5140 /* main.m */,
+				EFD3DDB5242659D100F0F212 /* AbstractFactory.h */,
+				EFD3DDB6242659D100F0F212 /* AbstractFactory.m */,
+				EFD3DDC124265B4400F0F212 /* ModernFactory.h */,
+				EFD3DDC224265B4400F0F212 /* ModernFactory.m */,
+				EFD3DDD024265C6600F0F212 /* MagicFactory.h */,
+				EFD3DDD124265C6600F0F212 /* MagicFactory.m */,
+				EFD3DDB824265A1100F0F212 /* Food.h */,
+				EFD3DDB924265A1100F0F212 /* Food.m */,
+				EFD3DDBB24265A3300F0F212 /* Weapon.h */,
+				EFD3DDBC24265A3300F0F212 /* Weapon.m */,
+				EFD3DDBE24265A4400F0F212 /* Vehicle.h */,
+				EFD3DDBF24265A4400F0F212 /* Vehicle.m */,
+				EFD3DDA62426474400F0F212 /* Car.h */,
+				EFD3DDA72426474400F0F212 /* Car.m */,
+				EFD3DDC424265B9500F0F212 /* AK47.h */,
+				EFD3DDC524265B9500F0F212 /* AK47.m */,
+				EFD3DDC724265BA500F0F212 /* Bread.h */,
+				EFD3DDC824265BA500F0F212 /* Bread.m */,
+				EFD3DDB2242649E100F0F212 /* Broom.h */,
+				EFD3DDB3242649E100F0F212 /* Broom.m */,
+				EFD3DDCA24265C2500F0F212 /* MagicStick.h */,
+				EFD3DDCB24265C2500F0F212 /* MagicStick.m */,
+				EFD3DDCD24265C4000F0F212 /* MushRoom.h */,
+				EFD3DDCE24265C4000F0F212 /* MushRoom.m */,
 			);
 			path = FactoryMethod;
 			sourceTree = "<group>";
@@ -119,7 +182,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFD3DDBA24265A1100F0F212 /* Food.m in Sources */,
+				EFD3DDD224265C6600F0F212 /* MagicFactory.m in Sources */,
+				EFD3DDCF24265C4000F0F212 /* MushRoom.m in Sources */,
+				EFD3DDB7242659D100F0F212 /* AbstractFactory.m in Sources */,
+				EFD3DDC024265A4400F0F212 /* Vehicle.m in Sources */,
+				EFD3DDAE2426489B00F0F212 /* 需求文档 in Sources */,
+				EFD3DDB4242649E100F0F212 /* Broom.m in Sources */,
+				EFD3DDBD24265A3300F0F212 /* Weapon.m in Sources */,
+				EFD3DDC624265B9500F0F212 /* AK47.m in Sources */,
+				EFD3DDA82426474400F0F212 /* Car.m in Sources */,
+				EFD3DDCC24265C2500F0F212 /* MagicStick.m in Sources */,
+				EFD3DDC924265BA500F0F212 /* Bread.m in Sources */,
 				EF8118D82424B72D006F5140 /* main.m in Sources */,
+				EFD3DDC324265B4400F0F212 /* ModernFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

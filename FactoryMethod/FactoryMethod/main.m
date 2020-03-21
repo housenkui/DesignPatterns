@@ -7,11 +7,26 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Food.h"
+#import "Weapon.h"
+#import "Vehicle.h"
+#import "ModernFactory.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"工厂模式");
+        NSLog(@"抽象工厂模式");
+        AbstractFactory *abstractFactory = [ModernFactory new];
+        
+        Vehicle *vehicle = [abstractFactory createVehicle];
+        [vehicle go];
+        
+        Weapon *weapon = [abstractFactory createWeapon];
+        
+        [weapon shoot];
+        
+        Food * food = [abstractFactory createFood];
+        [food printName];
+        
     }
     return 0;
 }
