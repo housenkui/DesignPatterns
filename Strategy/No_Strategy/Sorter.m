@@ -13,13 +13,13 @@
  添加新的比较，就需要更改Sorter的代码
  */
 - (void)sortDog:(NSMutableArray <id <DogComparable> > *)array WithParamter:(DogComparableParamter )paramter {
-        for (int i = 0; i< array.count ; i++) {
-            int minPos = i;
-            for (int j= i+1;j < array.count; j ++) {
-                minPos = [array[j] compare:array[minPos] WithParamter:paramter] == -1 ? j : minPos;
-            }
-            [self swapWithDog:array i:i j:minPos];
+    for (int i = 0; i< array.count ; i++) {
+        int minPos = i;
+        for (int j= i+1;j < array.count; j ++) {
+            minPos = [array[j] compare:array[minPos] WithParamter:paramter] == -1 ? j : minPos;
         }
+        [self swapWithDog:array i:i j:minPos];
+    }
 }
 
 - (void)swapWithDog:(NSMutableArray <id <DogComparable> > *)arr i:(int)i j:(int)j {

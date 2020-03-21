@@ -21,7 +21,11 @@
 }
 
 - (void)description {
-    NSLog(@"%@",[NSString stringWithFormat:@"cat hair = %d  tail = %d intelligence = %d age = %d ",self.hair,self.tail,self.intelligence,self.age]);
+    NSLog(@"%@",[NSString stringWithFormat:@"cat hair = %d  tail = %d intelligence = %d age = %d ",
+                 self.hair,
+                 self.tail,
+                 self.intelligence,
+                 self.age]);
 }
 
 @end

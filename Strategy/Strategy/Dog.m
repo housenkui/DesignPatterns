@@ -19,6 +19,10 @@
 }
 
 - (void)description {
-    NSLog(@"%@",[NSString stringWithFormat:@"dog height = %d  weight = %d  price = %d color = %d",self.height,self.weight,self.price,self.color]);
+    NSLog(@"%@",[NSString stringWithFormat:@"dog height = %d  weight = %d  price = %d color = %d",
+                 self.height,
+                 self.weight,
+                 self.price,
+                 self.color]);
 }
 @end

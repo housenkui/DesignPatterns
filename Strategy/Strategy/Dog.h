@@ -14,12 +14,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,assign)int height;
 @property (nonatomic,assign)int weight;
-
 @property (nonatomic,assign)int price;
 @property (nonatomic,assign)int color;
 
 - (instancetype)initWithHeight:(int)height weight:(int)weight price:(int)price color:(int)color;
-
 -(void)description;
 
 @end
