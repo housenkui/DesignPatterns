@@ -13,6 +13,8 @@
 #import "DogComparator.h"
 #import "CatWeightComparator.h"
 #import "CatHeightComparator.h"
+#import "DogPriceComparator.h"
+#import "DogColorComparator.h"
 @interface MBCollection<__covariant T>: NSObject
 
 @property (nonatomic, readonly) NSMutableArray <T> *elements;
@@ -30,40 +32,41 @@ int main(int argc, const char * argv[]) {
         
         NSMutableArray *mdogArray = [NSMutableArray array];
         for (int i = 5; i > 0 ; i-- ) {
-            Dog *dog = [[Dog alloc]initWithHeight:i weight:i];
+            Dog *dog = [[Dog alloc]initWithHeight:arc4random()%10 weight:arc4random()%10 price:arc4random()%10 color:arc4random()%10];
             [mdogArray addObject:dog];
         }
-
-
+        
+        
         for (Dog *dog  in mdogArray) {
             NSLog(@"%@",[dog description]);
         }
-
+        
         Sorter *dogSorter = [[Sorter alloc]init];
-//        [dogSorter sort:mdogArray comparator:[DogComparator new]];
-          [dogSorter sortDogWithHeigthCompare:mdogArray];
+        [dogSorter sort:mdogArray comparator:[DogColorComparator new]];
+        //          [dogSorter sortDogWithHeigthCompare:mdogArray];
+        NSLog(@"排序后------------");
         for (Dog *dog  in mdogArray) {
             NSLog(@"%@",[dog description]);
         }
         
         
-        NSMutableArray *mcatArray = [NSMutableArray array];
-        for (int i = 5; i > 0 ; i -- ) {
-            Cat *cat = [[Cat alloc]initWithHeight:i weight:i];
-            [mcatArray addObject:cat];
-        }
-
-        for (Cat *cat in mcatArray) {
-            NSLog(@"%@",[cat description]);
-        }
-
-        Sorter *sorter = [[Sorter alloc]init];
+//        NSMutableArray *mcatArray = [NSMutableArray array];
+//        for (int i = 5; i > 0 ; i -- ) {
+//            Cat *cat = [[Cat alloc]initWithHeight:i weight:i];
+//            [mcatArray addObject:cat];
+//        }
+//
+//        for (Cat *cat in mcatArray) {
+//            NSLog(@"%@",[cat description]);
+//        }
+//
+//        Sorter *sorter = [[Sorter alloc]init];
 //        [sorter sort:mcatArray comparator:[CatHeightComparator new]];
 //        [sorter sortCatWithHeigthCompare:mcatArray];
-        [sorter sortCatWithWeigthCompare:mcatArray];
-        for (Cat *cat in mcatArray) {
-            NSLog(@"%@",[cat description]);
-        }
+//        [sorter sortCatWithWeigthCompare:mcatArray];
+//        for (Cat *cat in mcatArray) {
+//            NSLog(@"%@",[cat description]);
+//        }
                
 //        NSMutableArray *array = [NSMutableArray arrayWithArray:@[@2,@1,@3,@5,@9,@7]];
 //        NSLog(@"array = %@",array);

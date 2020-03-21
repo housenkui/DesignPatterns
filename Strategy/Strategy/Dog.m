@@ -19,6 +19,16 @@
     return self;
 }
 
+- (instancetype)initWithHeight:(int)height weight:(int)weight price:(int)price color:(int)color {
+    if (self = [super init]) {
+        self.height = height;
+        self.weight = weight;
+        self.price = price;
+        self.color = color;
+    }
+    return self;
+}
+
 - (instancetype)initWithPrice:(int)price color:(int)color {
     if (self = [super init]) {
         self.price = price;
@@ -64,6 +74,6 @@
 }
 
 - (NSString *)description {
-    return [NSString stringWithFormat:@"dog %d %d",self.height,self.weight];
+    return [NSString stringWithFormat:@"dog height = %d  weight = %d  price = %d color = %d",self.height,self.weight,self.price,self.color];
 }
 @end

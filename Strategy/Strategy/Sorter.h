@@ -26,21 +26,19 @@ NS_ASSUME_NONNULL_BEGIN
 /// 接收一个数组 和比较策略
 /// @param array 待排序数组
 /// @param comparator 比较策略
-- (void)sort:(NSMutableArray <id <Comparable>> *)array comparator:(id <Comparator>)comparator;
+- (void)sort:(NSMutableArray <id > *)array comparator:(id <Comparator>)comparator;
 
-- (void)sort:(NSMutableArray <id <Comparable>> *)array;
-
-- (void)sortCatWithHeigthCompare:(NSMutableArray <Cat <CatComparable> * > *)array;
-
-- (void)sortCatWithWeigthCompare:(NSMutableArray <Cat <CatComparable> * > *)array;
-
-- (void)sortDogWithHeigthCompare:(NSMutableArray <Dog <DogComparable> * > *)array;
-
-- (void)sortDogWithWeigthCompare:(NSMutableArray <Dog <DogComparable> * > *)array;
-
-- (void)sortDogWithPriceCompare:(NSMutableArray <Dog <DogComparable> * > *)array;
-
-- (void)sortDogWithColorCompare:(NSMutableArray <Dog <DogComparable> * > *)array;
+//- (void)sortCatWithHeigthCompare:(NSMutableArray <Cat <CatComparable> * > *)array;
+//
+//- (void)sortCatWithWeigthCompare:(NSMutableArray <Cat <CatComparable> * > *)array;
+//
+//- (void)sortDogWithHeigthCompare:(NSMutableArray <Dog <DogComparable> * > *)array;
+//
+//- (void)sortDogWithWeigthCompare:(NSMutableArray <Dog <DogComparable> * > *)array;
+//
+//- (void)sortDogWithPriceCompare:(NSMutableArray <Dog <DogComparable> * > *)array;
+//
+//- (void)sortDogWithColorCompare:(NSMutableArray <Dog <DogComparable> * > *)array;
 
 @end
 

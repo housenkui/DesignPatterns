@@ -7,16 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
-//#import "Dog.h"
-//@class Dog;
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol DogComparable <NSObject>
-- (int)compareWithHeigth:(id <DogComparable> )dog;
-- (int)compareWithWeigth:(id <DogComparable> )dog;
+- (int)compareWithHeigth:(id<DogComparable>)dog;
+- (int)compareWithWeigth:(id<DogComparable>)dog;
 
-- (int)compareWithPrice:(id <DogComparable> )dog;
-- (int)compareWithColor:(id <DogComparable> )dog;
+- (int)compareWithPrice:(id<DogComparable>)dog;
+- (int)compareWithColor:(id<DogComparable>)dog;
 @end
 
 NS_ASSUME_NONNULL_END

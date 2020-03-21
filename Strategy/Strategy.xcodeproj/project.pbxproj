@@ -13,8 +13,8 @@
 		EF8118E02424D748006F5140 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8118DF2424D748006F5140 /* Dog.m */; };
 		EF8118E42424DFD4006F5140 /* Sorter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8118E32424DFD4006F5140 /* Sorter.m */; };
 		EF8118E72424E6FF006F5140 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8118E62424E6FF006F5140 /* Cat.m */; };
-		EF8118F124250C8B006F5140 /* DogComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8118F024250C8B006F5140 /* DogComparator.m */; };
-		EFD3DD712425A06000F0F212 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DD702425A06000F0F212 /* Person.m */; };
+		EFD3DD752425AA9300F0F212 /* DogPriceComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DD742425AA9300F0F212 /* DogPriceComparator.m */; };
+		EFD3DD782425AF3400F0F212 /* DogColorComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DD772425AF3400F0F212 /* DogColorComparator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,11 +45,12 @@
 		EF8118E52424E6FF006F5140 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
 		EF8118E62424E6FF006F5140 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 		EF8118EE24250A2E006F5140 /* Comparator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Comparator.h; sourceTree = "<group>"; };
-		EF8118EF24250C8B006F5140 /* DogComparator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogComparator.h; sourceTree = "<group>"; };
-		EF8118F024250C8B006F5140 /* DogComparator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogComparator.m; sourceTree = "<group>"; };
-		EFD3DD6F2425A06000F0F212 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		EFD3DD702425A06000F0F212 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		EFD3DD722425A35400F0F212 /* DogComparable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogComparable.h; sourceTree = "<group>"; };
+		EFD3DD732425AA9300F0F212 /* DogPriceComparator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogPriceComparator.h; sourceTree = "<group>"; };
+		EFD3DD742425AA9300F0F212 /* DogPriceComparator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogPriceComparator.m; sourceTree = "<group>"; };
+		EFD3DD762425AF3400F0F212 /* DogColorComparator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogColorComparator.h; sourceTree = "<group>"; };
+		EFD3DD772425AF3400F0F212 /* DogColorComparator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogColorComparator.m; sourceTree = "<group>"; };
+		EFD3DD792425B20A00F0F212 /* 不同阶段的需求 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "不同阶段的需求"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,18 +84,19 @@
 			isa = PBXGroup;
 			children = (
 				EF8118C42424B657006F5140 /* main.m */,
+				EFD3DD792425B20A00F0F212 /* 不同阶段的需求 */,
 				EF8118E12424DD65006F5140 /* Comparable.h */,
 				EF5FAE6B24259CAB00DB3C69 /* CatComparable.h */,
 				EFD3DD722425A35400F0F212 /* DogComparable.h */,
 				EF8118EE24250A2E006F5140 /* Comparator.h */,
 				EF8118DE2424D748006F5140 /* Dog.h */,
 				EF8118DF2424D748006F5140 /* Dog.m */,
-				EF8118EF24250C8B006F5140 /* DogComparator.h */,
-				EF8118F024250C8B006F5140 /* DogComparator.m */,
+				EFD3DD732425AA9300F0F212 /* DogPriceComparator.h */,
+				EFD3DD742425AA9300F0F212 /* DogPriceComparator.m */,
+				EFD3DD762425AF3400F0F212 /* DogColorComparator.h */,
+				EFD3DD772425AF3400F0F212 /* DogColorComparator.m */,
 				EF8118E52424E6FF006F5140 /* Cat.h */,
 				EF8118E62424E6FF006F5140 /* Cat.m */,
-				EFD3DD6F2425A06000F0F212 /* Person.h */,
-				EFD3DD702425A06000F0F212 /* Person.m */,
 				EF5FAE65242597B500DB3C69 /* CatWeightComparator.h */,
 				EF5FAE66242597B500DB3C69 /* CatWeightComparator.m */,
 				EF5FAE68242599C200DB3C69 /* CatHeightComparator.h */,
@@ -163,9 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF8118E72424E6FF006F5140 /* Cat.m in Sources */,
-				EF8118F124250C8B006F5140 /* DogComparator.m in Sources */,
-				EFD3DD712425A06000F0F212 /* Person.m in Sources */,
 				EF8118E02424D748006F5140 /* Dog.m in Sources */,
+				EFD3DD782425AF3400F0F212 /* DogColorComparator.m in Sources */,
+				EFD3DD752425AA9300F0F212 /* DogPriceComparator.m in Sources */,
 				EF8118E42424DFD4006F5140 /* Sorter.m in Sources */,
 				EF5FAE6A242599C200DB3C69 /* CatHeightComparator.m in Sources */,
 				EF5FAE67242597B500DB3C69 /* CatWeightComparator.m in Sources */,

@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)int color;
 
 - (instancetype)initWithFood:(int)food;
-- (instancetype)initWithHeight:(int)height weight:(int)weight;
+- (instancetype)initWithHeight:(int)height weight:(int)weight price:(int)price color:(int)color;
 
 - (instancetype)initWithPrice:(int)price color:(int)color;
 

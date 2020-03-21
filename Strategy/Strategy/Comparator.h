@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Comparable.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol Comparator <NSObject>
-- (int)compareTo:(id <Comparable> )obj1 obj2:(id <Comparable>)obj2;
+- (int)compareTo:(id <Comparator> )obj1 obj2:(id <Comparator>)obj2;
 @end
 
 NS_ASSUME_NONNULL_END
