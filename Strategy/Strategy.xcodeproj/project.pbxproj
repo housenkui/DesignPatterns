@@ -15,10 +15,22 @@
 		EF8118E72424E6FF006F5140 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8118E62424E6FF006F5140 /* Cat.m */; };
 		EFD3DD752425AA9300F0F212 /* DogPriceComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DD742425AA9300F0F212 /* DogPriceComparator.m */; };
 		EFD3DD782425AF3400F0F212 /* DogColorComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DD772425AF3400F0F212 /* DogColorComparator.m */; };
+		EFD3DD812425B40700F0F212 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DD802425B40700F0F212 /* main.m */; };
+		EFD3DD872425B8C600F0F212 /* Sorter.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DD862425B8C600F0F212 /* Sorter.m */; };
+		EFD3DD8A2425ECAA00F0F212 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DD892425ECAA00F0F212 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		EF8118BF2424B657006F5140 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFD3DD7C2425B40700F0F212 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -51,10 +63,23 @@
 		EFD3DD762425AF3400F0F212 /* DogColorComparator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogColorComparator.h; sourceTree = "<group>"; };
 		EFD3DD772425AF3400F0F212 /* DogColorComparator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogColorComparator.m; sourceTree = "<group>"; };
 		EFD3DD792425B20A00F0F212 /* 不同阶段的需求 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "不同阶段的需求"; sourceTree = "<group>"; };
+		EFD3DD7E2425B40700F0F212 /* No_Strategy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = No_Strategy; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD3DD802425B40700F0F212 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFD3DD852425B8C600F0F212 /* Sorter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sorter.h; sourceTree = "<group>"; };
+		EFD3DD862425B8C600F0F212 /* Sorter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sorter.m; sourceTree = "<group>"; };
+		EFD3DD882425ECAA00F0F212 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		EFD3DD892425ECAA00F0F212 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF8118BE2424B657006F5140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD3DD7B2425B40700F0F212 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -68,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				EF8118C32424B657006F5140 /* Strategy */,
+				EFD3DD7F2425B40700F0F212 /* No_Strategy */,
 				EF8118C22424B657006F5140 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				EF8118C12424B657006F5140 /* Strategy */,
+				EFD3DD7E2425B40700F0F212 /* No_Strategy */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +134,18 @@
 			path = Strategy;
 			sourceTree = "<group>";
 		};
+		EFD3DD7F2425B40700F0F212 /* No_Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3DD802425B40700F0F212 /* main.m */,
+				EFD3DD852425B8C600F0F212 /* Sorter.h */,
+				EFD3DD862425B8C600F0F212 /* Sorter.m */,
+				EFD3DD882425ECAA00F0F212 /* Dog.h */,
+				EFD3DD892425ECAA00F0F212 /* Dog.m */,
+			);
+			path = No_Strategy;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -127,6 +166,23 @@
 			productReference = EF8118C12424B657006F5140 /* Strategy */;
 			productType = "com.apple.product-type.tool";
 		};
+		EFD3DD7D2425B40700F0F212 /* No_Strategy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD3DD822425B40700F0F212 /* Build configuration list for PBXNativeTarget "No_Strategy" */;
+			buildPhases = (
+				EFD3DD7A2425B40700F0F212 /* Sources */,
+				EFD3DD7B2425B40700F0F212 /* Frameworks */,
+				EFD3DD7C2425B40700F0F212 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = No_Strategy;
+			productName = No_Strategy;
+			productReference = EFD3DD7E2425B40700F0F212 /* No_Strategy */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -137,6 +193,9 @@
 				ORGANIZATIONNAME = "侯森魁";
 				TargetAttributes = {
 					EF8118C02424B657006F5140 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EFD3DD7D2425B40700F0F212 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
@@ -155,6 +214,7 @@
 			projectRoot = "";
 			targets = (
 				EF8118C02424B657006F5140 /* Strategy */,
+				EFD3DD7D2425B40700F0F212 /* No_Strategy */,
 			);
 		};
 /* End PBXProject section */
@@ -172,6 +232,16 @@
 				EF5FAE6A242599C200DB3C69 /* CatHeightComparator.m in Sources */,
 				EF5FAE67242597B500DB3C69 /* CatWeightComparator.m in Sources */,
 				EF8118C52424B657006F5140 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD3DD7A2425B40700F0F212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD3DD8A2425ECAA00F0F212 /* Dog.m in Sources */,
+				EFD3DD872425B8C600F0F212 /* Sorter.m in Sources */,
+				EFD3DD812425B40700F0F212 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +373,22 @@
 			};
 			name = Release;
 		};
+		EFD3DD832425B40700F0F212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFD3DD842425B40700F0F212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -320,6 +406,15 @@
 			buildConfigurations = (
 				EF8118C92424B657006F5140 /* Debug */,
 				EF8118CA2424B657006F5140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD3DD822425B40700F0F212 /* Build configuration list for PBXNativeTarget "No_Strategy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD3DD832425B40700F0F212 /* Debug */,
+				EFD3DD842425B40700F0F212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
