@@ -9,7 +9,9 @@
 #import "Sorter.h"
 
 @implementation Sorter
-
+/*
+ 添加新的比较，就需要更改Sorter的代码
+ */
 - (void)sortDog:(NSMutableArray <id <DogComparable> > *)array WithParamter:(DogComparableParamter )paramter {
         for (int i = 0; i< array.count ; i++) {
             int minPos = i;

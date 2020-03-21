@@ -17,6 +17,9 @@
 #import "DogColorComparator.h"
 
 #import "CatHairComparator.h"
+#import "CatTailComparator.h"
+#import "CatIntelligenceComparator.h"
+#import "CatAgeComparator.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {

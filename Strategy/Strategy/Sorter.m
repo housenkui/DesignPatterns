@@ -10,8 +10,6 @@
 
 @implementation Sorter
 
-//如果不使用比较器 比较逻辑放在Sorter中，sorter会越来越臃肿，并且它违反了依赖倒置的原则，无法让细节依赖于抽象，反而导致了抽象依赖于细节
-
 - (void)sort:(NSMutableArray <id> *)array comparator:(id <Comparator> )comparator {
     
     for (int i = 0; i< array.count ; i++) {
