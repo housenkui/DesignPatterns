@@ -24,6 +24,17 @@
     else if(self.weight > cat.weight) return 1;
     return 0;
 }
+- (int)compareWithHeigth:(Cat <Comparable> *)cat {
+    
+    if(self.height < cat.height) return -1;
+    else if(self.height > cat.height) return 1;
+    return 0;
+}
+- (int)compareWithWeigth:(Cat <Comparable> *)cat {
+    if(self.weight < cat.weight) return -1;
+    else if(self.weight > cat.weight) return 1;
+    return 0;
+}
 
 - (NSString *)description {
     return [NSString stringWithFormat:@"cat %d %d",self.height,self.weight];

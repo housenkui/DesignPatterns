@@ -19,6 +19,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (int)compareTo:(id<Comparable>)obj;
 
+- (int)compareWithHeigth:(Cat <Comparable> *)cat;
+- (int)compareWithWeigth:(Cat <Comparable> *)cat;
+
 - (NSString *)description;
 @end
 
