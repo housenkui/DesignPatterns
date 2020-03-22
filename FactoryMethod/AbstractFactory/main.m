@@ -13,6 +13,8 @@
 #import "ModernFactory.h"
 #import "MagicFactory.h"
 
+#import "Person.h"
+#import "WhitePerson.h"
 void createFactory(AbstractFactory * abstractFactory)  {
     Vehicle *vehicle = [abstractFactory createVehicle];
     [vehicle go];
@@ -29,7 +31,6 @@ int main(int argc, const char * argv[]) {
         NSLog(@"抽象工厂模式");
         createFactory([ModernFactory new]);
         createFactory([MagicFactory new]);
-                
     }
     return 0;
 }

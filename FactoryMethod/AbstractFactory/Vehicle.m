@@ -9,7 +9,20 @@
 #import "Vehicle.h"
 
 @implementation Vehicle
++ (instancetype)allocWithZone:(struct _NSZone *)zone
+{
+   
+    if([NSStringFromClass([self class]) isEqualToString:@"Vehicle"])
+    {
+        NSLog(@"Vehicle类属于抽象类，无法进行实例化，务必使用子类来进行实例的创建!!!");
+        return nil;
+    }
+    else
+    {
+        return [super allocWithZone:zone];
+    }
+}
 - (void)go {
-    NSLog(@"Vehicle go ......");
+    
 }
 @end

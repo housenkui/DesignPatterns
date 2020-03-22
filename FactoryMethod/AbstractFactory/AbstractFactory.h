@@ -13,9 +13,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface AbstractFactory : NSObject
-- (id) createFood;
-- (id )createVehicle;
-- (id )createWeapon;
+- (id)createFood;
+- (id)createVehicle;
+- (id)createWeapon;
 @end
 
 NS_ASSUME_NONNULL_END

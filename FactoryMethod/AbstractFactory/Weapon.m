@@ -9,5 +9,20 @@
 #import "Weapon.h"
 
 @implementation Weapon
-
++ (instancetype)allocWithZone:(struct _NSZone *)zone
+{
+   
+    if([NSStringFromClass([self class]) isEqualToString:@"Weapon"])
+    {
+        NSLog(@"Weapon类属于抽象类，无法进行实例化，务必使用子类来进行实例的创建!!!");
+        return nil;
+    }
+    else
+    {
+        return [super allocWithZone:zone];
+    }
+}
+- (void)shoot {
+    
+}
 @end

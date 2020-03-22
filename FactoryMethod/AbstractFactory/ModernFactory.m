@@ -14,10 +14,10 @@
 - (id)createFood {
     return [Bread new];
 }
-- (id )createVehicle {
+- (id)createVehicle {
      return [Car new];
 }
-- (id )createWeapon {
+- (id)createWeapon {
      return [AK47 new];
 }
 @end

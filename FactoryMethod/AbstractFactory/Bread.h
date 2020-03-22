@@ -10,7 +10,7 @@
 #import "Food.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Bread : NSObject
+@interface Bread : Food
 - (void)printName;
 @end
 

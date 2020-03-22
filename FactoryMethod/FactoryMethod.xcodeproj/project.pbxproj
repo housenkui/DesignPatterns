@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		EF8118D82424B72D006F5140 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8118D72424B72D006F5140 /* main.m */; };
+		EFA734BC2427042900690C5D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA734BB2427042900690C5D /* Person.m */; };
+		EFA734BF2427048000690C5D /* WhitePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA734BE2427048000690C5D /* WhitePerson.m */; };
 		EFD3DDA82426474400F0F212 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDA72426474400F0F212 /* Car.m */; };
-		EFD3DDAE2426489B00F0F212 /* 需求文档 in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDAD2426489B00F0F212 /* 需求文档 */; };
 		EFD3DDB4242649E100F0F212 /* Broom.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDB3242649E100F0F212 /* Broom.m */; };
 		EFD3DDB7242659D100F0F212 /* AbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDB6242659D100F0F212 /* AbstractFactory.m */; };
 		EFD3DDBA24265A1100F0F212 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3DDB924265A1100F0F212 /* Food.m */; };
@@ -73,9 +74,14 @@
 /* Begin PBXFileReference section */
 		EF8118D42424B72D006F5140 /* FactoryMethod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FactoryMethod; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8118D72424B72D006F5140 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFA5D83124270F6F000D0DE8 /* 说明 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "说明"; sourceTree = "<group>"; };
+		EFA734BA2427042900690C5D /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		EFA734BB2427042900690C5D /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		EFA734BD2427048000690C5D /* WhitePerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhitePerson.h; sourceTree = "<group>"; };
+		EFA734BE2427048000690C5D /* WhitePerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhitePerson.m; sourceTree = "<group>"; };
+		EFA734C024270CC800690C5D /* 需求文档1.0 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "需求文档1.0"; sourceTree = "<group>"; };
 		EFD3DDA62426474400F0F212 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		EFD3DDA72426474400F0F212 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
-		EFD3DDAD2426489B00F0F212 /* 需求文档 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "需求文档"; sourceTree = "<group>"; };
 		EFD3DDB2242649E100F0F212 /* Broom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Broom.h; sourceTree = "<group>"; };
 		EFD3DDB3242649E100F0F212 /* Broom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Broom.m; sourceTree = "<group>"; };
 		EFD3DDB5242659D100F0F212 /* AbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
@@ -185,7 +191,8 @@
 		EF8118D62424B72D006F5140 /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
-				EFD3DDAD2426489B00F0F212 /* 需求文档 */,
+				EFA734B9242703FA00690C5D /* Objective-c AbstractClass */,
+				EFA734C024270CC800690C5D /* 需求文档1.0 */,
 				EF8118D72424B72D006F5140 /* main.m */,
 				EFD3DDB5242659D100F0F212 /* AbstractFactory.h */,
 				EFD3DDB6242659D100F0F212 /* AbstractFactory.m */,
@@ -213,6 +220,18 @@
 				EFD3DDCE24265C4000F0F212 /* MushRoom.m */,
 			);
 			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		EFA734B9242703FA00690C5D /* Objective-c AbstractClass */ = {
+			isa = PBXGroup;
+			children = (
+				EFA734BA2427042900690C5D /* Person.h */,
+				EFA734BB2427042900690C5D /* Person.m */,
+				EFA734BD2427048000690C5D /* WhitePerson.h */,
+				EFA734BE2427048000690C5D /* WhitePerson.m */,
+				EFA5D83124270F6F000D0DE8 /* 说明 */,
+			);
+			path = "Objective-c AbstractClass";
 			sourceTree = "<group>";
 		};
 		EFD3DDD82426654300F0F212 /* no_factory */ = {
@@ -363,18 +382,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA734BF2427048000690C5D /* WhitePerson.m in Sources */,
 				EFD3DDBA24265A1100F0F212 /* Food.m in Sources */,
 				EFD3DDD224265C6600F0F212 /* MagicFactory.m in Sources */,
 				EFD3DDCF24265C4000F0F212 /* MushRoom.m in Sources */,
 				EFD3DDB7242659D100F0F212 /* AbstractFactory.m in Sources */,
 				EFD3DDC024265A4400F0F212 /* Vehicle.m in Sources */,
-				EFD3DDAE2426489B00F0F212 /* 需求文档 in Sources */,
 				EFD3DDB4242649E100F0F212 /* Broom.m in Sources */,
 				EFD3DDBD24265A3300F0F212 /* Weapon.m in Sources */,
 				EFD3DDC624265B9500F0F212 /* AK47.m in Sources */,
 				EFD3DDA82426474400F0F212 /* Car.m in Sources */,
 				EFD3DDCC24265C2500F0F212 /* MagicStick.m in Sources */,
 				EFD3DDC924265BA500F0F212 /* Bread.m in Sources */,
+				EFA734BC2427042900690C5D /* Person.m in Sources */,
 				EF8118D82424B72D006F5140 /* main.m in Sources */,
 				EFD3DDC324265B4400F0F212 /* ModernFactory.m in Sources */,
 			);

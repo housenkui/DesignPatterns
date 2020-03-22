@@ -12,8 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ModernFactory : AbstractFactory
 - (id)createFood;
-- (id )createVehicle;
-- (id )createWeapon;
+- (id)createVehicle;
+- (id)createWeapon;
 @end
 
 NS_ASSUME_NONNULL_END
