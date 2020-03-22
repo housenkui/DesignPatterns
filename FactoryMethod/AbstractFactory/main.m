@@ -16,7 +16,7 @@
 #import "Person.h"
 #import "WhitePerson.h"
 void createFactory(AbstractFactory * abstractFactory)  {
-    Vehicle *vehicle = [abstractFactory createVehicle];
+    Vehicle *vehicle = [abstractFactory createVehicle];//父类的指针 指向子类的实例
     [vehicle go];
     
     Weapon *weapon = [abstractFactory createWeapon];
