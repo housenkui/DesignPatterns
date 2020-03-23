@@ -1,11 +1,10 @@
-1.在论坛中发表文章
-2.后台要经过信息处理才可以发表或者进入数据库
+1.在论坛中发表文章,后台要经过信息处理才可以发表或者进入数据库
 
 例如:对字符串 “大家好:),<script>,欢迎访问 github.com/housenkui, 大家都是996 ” 中
 的“<”处理成“[” ">"处理成“]” "996"处理成“955”
 
-3.由FilterChain中的某一个Filter决定链条是否继续
+2.由FilterChain中的某一个Filter决定链条是否继续
 
-4.能够处理网络请求 request1 request2 request3 和返回报文 response3  response2 response1
+3.能够处理网络请求 request1 request2 request3 和返回报文 response3  response2 response1
 
 

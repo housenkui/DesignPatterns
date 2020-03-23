@@ -14,10 +14,40 @@
 		EFA5D88B24273C62000D0DE8 /* FilterChain.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA5D88A24273C62000D0DE8 /* FilterChain.m */; };
 		EFA5D88E24273F2D000D0DE8 /* FaceFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA5D88D24273F2D000D0DE8 /* FaceFilter.m */; };
 		EFA5D89124273F7C000D0DE8 /* URLFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA5D89024273F7C000D0DE8 /* URLFilter.m */; };
+		EFA5D89924274620000D0DE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA5D89824274620000D0DE8 /* main.m */; };
+		EFA5D89F24274636000D0DE8 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA5D89E24274636000D0DE8 /* Request.m */; };
+		EFA5D8A224274644000D0DE8 /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA5D8A124274644000D0DE8 /* Response.m */; };
+		EFA5D8A6242832A9000D0DE8 /* FilterChain.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA5D8A5242832A9000D0DE8 /* FilterChain.m */; };
+		EFA5D8A9242832F4000D0DE8 /* HTMLFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA5D8A8242832F4000D0DE8 /* HTMLFilter.m */; };
+		EFA5D8AC24283742000D0DE8 /* SensitiveFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA5D8AB24283742000D0DE8 /* SensitiveFilter.m */; };
+		EFA5D8C424283C53000D0DE8 /* HTMLFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA5D8BA24283C53000D0DE8 /* HTMLFilter.m */; };
+		EFA5D8C524283C53000D0DE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA5D8BC24283C53000D0DE8 /* main.m */; };
+		EFA5D8C624283C53000D0DE8 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA5D8BE24283C53000D0DE8 /* Request.m */; };
+		EFA5D8C724283C53000D0DE8 /* FilterChain.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA5D8C024283C53000D0DE8 /* FilterChain.m */; };
+		EFA5D8C824283C53000D0DE8 /* SensitiveFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA5D8C224283C53000D0DE8 /* SensitiveFilter.m */; };
+		EFA5D8C924283C53000D0DE8 /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA5D8C324283C53000D0DE8 /* Response.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		EFA5D87224271A38000D0DE8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFA5D89424274620000D0DE8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFA5D8AF24283C28000D0DE8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -45,10 +75,51 @@
 		EFA5D88D24273F2D000D0DE8 /* FaceFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceFilter.m; sourceTree = "<group>"; };
 		EFA5D88F24273F7C000D0DE8 /* URLFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLFilter.h; sourceTree = "<group>"; };
 		EFA5D89024273F7C000D0DE8 /* URLFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLFilter.m; sourceTree = "<group>"; };
+		EFA5D89624274620000D0DE8 /* HTTPChainOfResponsibility */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HTTPChainOfResponsibility; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA5D89824274620000D0DE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFA5D89D24274636000D0DE8 /* Request.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		EFA5D89E24274636000D0DE8 /* Request.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
+		EFA5D8A024274644000D0DE8 /* Response.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Response.h; sourceTree = "<group>"; };
+		EFA5D8A124274644000D0DE8 /* Response.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Response.m; sourceTree = "<group>"; };
+		EFA5D8A324274655000D0DE8 /* Filter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Filter.h; sourceTree = "<group>"; };
+		EFA5D8A4242832A9000D0DE8 /* FilterChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterChain.h; sourceTree = "<group>"; };
+		EFA5D8A5242832A9000D0DE8 /* FilterChain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterChain.m; sourceTree = "<group>"; };
+		EFA5D8A7242832F4000D0DE8 /* HTMLFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMLFilter.h; sourceTree = "<group>"; };
+		EFA5D8A8242832F4000D0DE8 /* HTMLFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMLFilter.m; sourceTree = "<group>"; };
+		EFA5D8AA24283742000D0DE8 /* SensitiveFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SensitiveFilter.h; sourceTree = "<group>"; };
+		EFA5D8AB24283742000D0DE8 /* SensitiveFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SensitiveFilter.m; sourceTree = "<group>"; };
+		EFA5D8B124283C28000D0DE8 /* ChainOfResponsibility_v3.0 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChainOfResponsibility_v3.0; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA5D8B824283C53000D0DE8 /* SensitiveFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensitiveFilter.h; sourceTree = "<group>"; };
+		EFA5D8B924283C53000D0DE8 /* HTMLFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLFilter.h; sourceTree = "<group>"; };
+		EFA5D8BA24283C53000D0DE8 /* HTMLFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLFilter.m; sourceTree = "<group>"; };
+		EFA5D8BB24283C53000D0DE8 /* Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Filter.h; sourceTree = "<group>"; };
+		EFA5D8BC24283C53000D0DE8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFA5D8BD24283C53000D0DE8 /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		EFA5D8BE24283C53000D0DE8 /* Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
+		EFA5D8BF24283C53000D0DE8 /* Response.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Response.h; sourceTree = "<group>"; };
+		EFA5D8C024283C53000D0DE8 /* FilterChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterChain.m; sourceTree = "<group>"; };
+		EFA5D8C124283C53000D0DE8 /* FilterChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterChain.h; sourceTree = "<group>"; };
+		EFA5D8C224283C53000D0DE8 /* SensitiveFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensitiveFilter.m; sourceTree = "<group>"; };
+		EFA5D8C324283C53000D0DE8 /* Response.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Response.m; sourceTree = "<group>"; };
+		EFA5D8CA24283CF3000D0DE8 /* 说明 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "说明"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EFA5D87124271A38000D0DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA5D89324274620000D0DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA5D8AE24283C28000D0DE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				EFA5D87624271A38000D0DE8 /* ChainOfResponsibility */,
+				EFA5D89724274620000D0DE8 /* ChainOfResponsibility_v2.0 */,
+				EFA5D8B224283C28000D0DE8 /* ChainOfResponsibility_v3.0 */,
 				EFA5D87524271A38000D0DE8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				EFA5D87424271A38000D0DE8 /* ChainOfResponsibility */,
+				EFA5D89624274620000D0DE8 /* HTTPChainOfResponsibility */,
+				EFA5D8B124283C28000D0DE8 /* ChainOfResponsibility_v3.0 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +171,45 @@
 			path = ChainOfResponsibility;
 			sourceTree = "<group>";
 		};
+		EFA5D89724274620000D0DE8 /* ChainOfResponsibility_v2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				EFA5D89824274620000D0DE8 /* main.m */,
+				EFA5D8A324274655000D0DE8 /* Filter.h */,
+				EFA5D8A7242832F4000D0DE8 /* HTMLFilter.h */,
+				EFA5D8A8242832F4000D0DE8 /* HTMLFilter.m */,
+				EFA5D8AA24283742000D0DE8 /* SensitiveFilter.h */,
+				EFA5D8AB24283742000D0DE8 /* SensitiveFilter.m */,
+				EFA5D89D24274636000D0DE8 /* Request.h */,
+				EFA5D89E24274636000D0DE8 /* Request.m */,
+				EFA5D8A024274644000D0DE8 /* Response.h */,
+				EFA5D8A124274644000D0DE8 /* Response.m */,
+				EFA5D8A4242832A9000D0DE8 /* FilterChain.h */,
+				EFA5D8A5242832A9000D0DE8 /* FilterChain.m */,
+			);
+			path = ChainOfResponsibility_v2.0;
+			sourceTree = "<group>";
+		};
+		EFA5D8B224283C28000D0DE8 /* ChainOfResponsibility_v3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				EFA5D8BC24283C53000D0DE8 /* main.m */,
+				EFA5D8BB24283C53000D0DE8 /* Filter.h */,
+				EFA5D8BD24283C53000D0DE8 /* Request.h */,
+				EFA5D8BE24283C53000D0DE8 /* Request.m */,
+				EFA5D8BF24283C53000D0DE8 /* Response.h */,
+				EFA5D8C324283C53000D0DE8 /* Response.m */,
+				EFA5D8B924283C53000D0DE8 /* HTMLFilter.h */,
+				EFA5D8BA24283C53000D0DE8 /* HTMLFilter.m */,
+				EFA5D8B824283C53000D0DE8 /* SensitiveFilter.h */,
+				EFA5D8C224283C53000D0DE8 /* SensitiveFilter.m */,
+				EFA5D8C124283C53000D0DE8 /* FilterChain.h */,
+				EFA5D8C024283C53000D0DE8 /* FilterChain.m */,
+				EFA5D8CA24283CF3000D0DE8 /* 说明 */,
+			);
+			path = ChainOfResponsibility_v3.0;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -116,6 +230,40 @@
 			productReference = EFA5D87424271A38000D0DE8 /* ChainOfResponsibility */;
 			productType = "com.apple.product-type.tool";
 		};
+		EFA5D89524274620000D0DE8 /* HTTPChainOfResponsibility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA5D89A24274620000D0DE8 /* Build configuration list for PBXNativeTarget "HTTPChainOfResponsibility" */;
+			buildPhases = (
+				EFA5D89224274620000D0DE8 /* Sources */,
+				EFA5D89324274620000D0DE8 /* Frameworks */,
+				EFA5D89424274620000D0DE8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTTPChainOfResponsibility;
+			productName = HTTPChainOfResponsibility;
+			productReference = EFA5D89624274620000D0DE8 /* HTTPChainOfResponsibility */;
+			productType = "com.apple.product-type.tool";
+		};
+		EFA5D8B024283C28000D0DE8 /* ChainOfResponsibility_v3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA5D8B524283C28000D0DE8 /* Build configuration list for PBXNativeTarget "ChainOfResponsibility_v3.0" */;
+			buildPhases = (
+				EFA5D8AD24283C28000D0DE8 /* Sources */,
+				EFA5D8AE24283C28000D0DE8 /* Frameworks */,
+				EFA5D8AF24283C28000D0DE8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChainOfResponsibility_v3.0;
+			productName = ChainOfResponsibility_v3.0;
+			productReference = EFA5D8B124283C28000D0DE8 /* ChainOfResponsibility_v3.0 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -126,6 +274,12 @@
 				ORGANIZATIONNAME = "侯森魁";
 				TargetAttributes = {
 					EFA5D87324271A38000D0DE8 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EFA5D89524274620000D0DE8 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EFA5D8B024283C28000D0DE8 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
@@ -144,6 +298,8 @@
 			projectRoot = "";
 			targets = (
 				EFA5D87324271A38000D0DE8 /* ChainOfResponsibility */,
+				EFA5D89524274620000D0DE8 /* HTTPChainOfResponsibility */,
+				EFA5D8B024283C28000D0DE8 /* ChainOfResponsibility_v3.0 */,
 			);
 		};
 /* End PBXProject section */
@@ -160,6 +316,32 @@
 				EFA5D89124273F7C000D0DE8 /* URLFilter.m in Sources */,
 				EFA5D8822427206B000D0DE8 /* Msg.m in Sources */,
 				EFA5D88B24273C62000D0DE8 /* FilterChain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA5D89224274620000D0DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA5D8A224274644000D0DE8 /* Response.m in Sources */,
+				EFA5D8A6242832A9000D0DE8 /* FilterChain.m in Sources */,
+				EFA5D8A9242832F4000D0DE8 /* HTMLFilter.m in Sources */,
+				EFA5D89924274620000D0DE8 /* main.m in Sources */,
+				EFA5D8AC24283742000D0DE8 /* SensitiveFilter.m in Sources */,
+				EFA5D89F24274636000D0DE8 /* Request.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA5D8AD24283C28000D0DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA5D8C424283C53000D0DE8 /* HTMLFilter.m in Sources */,
+				EFA5D8C624283C53000D0DE8 /* Request.m in Sources */,
+				EFA5D8C924283C53000D0DE8 /* Response.m in Sources */,
+				EFA5D8C524283C53000D0DE8 /* main.m in Sources */,
+				EFA5D8C824283C53000D0DE8 /* SensitiveFilter.m in Sources */,
+				EFA5D8C724283C53000D0DE8 /* FilterChain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +473,38 @@
 			};
 			name = Release;
 		};
+		EFA5D89B24274620000D0DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFA5D89C24274620000D0DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFA5D8B624283C28000D0DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFA5D8B724283C28000D0DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -308,6 +522,24 @@
 			buildConfigurations = (
 				EFA5D87C24271A38000D0DE8 /* Debug */,
 				EFA5D87D24271A38000D0DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA5D89A24274620000D0DE8 /* Build configuration list for PBXNativeTarget "HTTPChainOfResponsibility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA5D89B24274620000D0DE8 /* Debug */,
+				EFA5D89C24274620000D0DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA5D8B524283C28000D0DE8 /* Build configuration list for PBXNativeTarget "ChainOfResponsibility_v3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA5D8B624283C28000D0DE8 /* Debug */,
+				EFA5D8B724283C28000D0DE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
