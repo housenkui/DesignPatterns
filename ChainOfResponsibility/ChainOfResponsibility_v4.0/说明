@@ -1,3 +1,3 @@
 v4.0 完全模拟Serverlet中的FilterChain
 struct2的拦截器也是这样的，
-springMVC的拦截器也是这样的
+springMVC的拦截器也是这样的 
