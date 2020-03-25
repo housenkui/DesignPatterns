@@ -8,12 +8,23 @@
 
 #import <Foundation/Foundation.h>
 #import "ComplexTerrainBuilder.h"
+#import "PersonBuilder.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         NSLog(@"构建复杂对象");
+        
         id <TerrainBuilder> builder = [ComplexTerrainBuilder new];
+        
         Terrain *t = [[[[builder buildFort]buildWall]buildMine] build];
+        
+        NSLog(@"%@",t);
+        
+        //666
+        Person *person = [[[[[[PersonBuilder new] basicInfo:1 name:@"hou" age:29] weight:140] score:100] loc:@"SH" roomNo:@"XH"]build];
+        NSLog(@"%@",person);
+        
+        
         
         //真像
 //        [view1 makeConstraints:^(MASConstraintMaker *make) {

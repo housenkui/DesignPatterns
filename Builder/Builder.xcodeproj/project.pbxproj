@@ -13,6 +13,9 @@
 		EFE39894242B06990027857D /* Fort.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE39893242B06990027857D /* Fort.m */; };
 		EFE39897242B06A00027857D /* Mine.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE39896242B06A00027857D /* Mine.m */; };
 		EFE3989B242B08B60027857D /* ComplexTerrainBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE3989A242B08B60027857D /* ComplexTerrainBuilder.m */; };
+		EFE398A1242B0B360027857D /* PersonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE398A0242B0B360027857D /* PersonBuilder.m */; };
+		EFE398A4242B10EF0027857D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE398A2242B10EF0027857D /* Person.m */; };
+		EFE398A7242B11270027857D /* Loction.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE398A6242B11270027857D /* Loction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +44,12 @@
 		EFE39898242B08580027857D /* TerrainBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TerrainBuilder.h; sourceTree = "<group>"; };
 		EFE39899242B08B60027857D /* ComplexTerrainBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComplexTerrainBuilder.h; sourceTree = "<group>"; };
 		EFE3989A242B08B60027857D /* ComplexTerrainBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComplexTerrainBuilder.m; sourceTree = "<group>"; };
+		EFE3989F242B0B360027857D /* PersonBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonBuilder.h; sourceTree = "<group>"; };
+		EFE398A0242B0B360027857D /* PersonBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonBuilder.m; sourceTree = "<group>"; };
+		EFE398A2242B10EF0027857D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		EFE398A3242B10EF0027857D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		EFE398A5242B11270027857D /* Loction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Loction.h; sourceTree = "<group>"; };
+		EFE398A6242B11270027857D /* Loction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Loction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +83,12 @@
 			isa = PBXGroup;
 			children = (
 				EF81D51F2429F8D500DE63E6 /* main.m */,
+				EFE398A3242B10EF0027857D /* Person.h */,
+				EFE398A2242B10EF0027857D /* Person.m */,
+				EFE3989F242B0B360027857D /* PersonBuilder.h */,
+				EFE398A0242B0B360027857D /* PersonBuilder.m */,
+				EFE398A5242B11270027857D /* Loction.h */,
+				EFE398A6242B11270027857D /* Loction.m */,
 				EFE3988C242B063C0027857D /* Terrain.h */,
 				EFE3988D242B063C0027857D /* Terrain.m */,
 				EFE3988F242B068B0027857D /* Wall.h */,
@@ -146,7 +161,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE398A1242B0B360027857D /* PersonBuilder.m in Sources */,
 				EFE39897242B06A00027857D /* Mine.m in Sources */,
+				EFE398A7242B11270027857D /* Loction.m in Sources */,
+				EFE398A4242B10EF0027857D /* Person.m in Sources */,
 				EFE39894242B06990027857D /* Fort.m in Sources */,
 				EFE3989B242B08B60027857D /* ComplexTerrainBuilder.m in Sources */,
 				EF81D5202429F8D500DE63E6 /* main.m in Sources */,
