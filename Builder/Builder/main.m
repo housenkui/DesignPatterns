@@ -25,7 +25,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%@",person);
         
         
-        
+        //todo:
         //真像
 //        [view1 makeConstraints:^(MASConstraintMaker *make) {
 //            make.left.equalTo(10);
