@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Intepreter/Intepreter.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:State/State.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TemplateMethod/TemplateMethod.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Memento/Memento.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Prototype/Prototype.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Command/Command.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Bridge/Bridge.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Adapter/Adapter.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Builder/Builder.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Visitor/Visitor.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Iterator/Iterator.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Proxy/Proxy.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FlyWeight/FlyWeight.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Composite/Composite.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Observer/Observer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ChainOfResponsibility/ChainOfResponsibility.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Decorator/Decorator.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Mediator/Mediator.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Facade/Facade.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:&#x8bbe;&#x8ba1;&#x6a21;&#x5f0f;&#x57fa;&#x672c;&#x6982;&#x5ff5;"
+      name = "&#x8bbe;&#x8ba1;&#x6a21;&#x5f0f;&#x57fa;&#x672c;&#x6982;&#x5ff5;">
+      <FileRef
+         location = "group:&#x8bbe;&#x8ba1;&#x6a21;&#x5f0f;.png">
+      </FileRef>
+      <FileRef
+         location = "group:&#x6307;&#x5bfc;&#x601d;&#x60f3;">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:FactoryMethod/FactoryMethod.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Strategy/Strategy.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Singleton/Singleton.xcodeproj">
+   </FileRef>
+</Workspace>
